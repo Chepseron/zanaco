@@ -1,0 +1,627 @@
+2019-08-01 09:46:21 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:7e39b750-9eb6-4f53-9e6e-9c7ce5bdd378:
+2019-08-01 09:46:29 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:55f64447-e268-c77d-60d0-38ecc4999d04:
+2019-08-01 09:47:06 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:21a5cb64-cd67-0d11-c86e-ca05651abb35:
+2019-08-01 09:47:32 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:9d4f976c-ca06-50ea-eaf2-0483e444553c:
+2019-08-01 09:47:39 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:6821bb05-f473-4600-7859-a881168cca50:
+2019-08-01 09:48:31 - GET CUSTOMER RESPONSE : System.Data.SqlClient.SqlException: Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER RESPONSE : System.Data.SqlClient.SqlException: Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER RESPONSE : System.Data.SqlClient.SqlException: Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER RESPONSE : System.Data.SqlClient.SqlException: Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER RESPONSE : System.Data.SqlClient.SqlException: Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:48:31 - GET CUSTOMER Cannot open database &quot;Elma&quot; requested by the login. The login failed.
+Login failed for user &#39;User11021969&#39;.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MobileMall.MobileMall.U(String b)
+
+2019-08-01 09:51:27 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:fc229e47-bb02-9c22-321f-cb7e01017e95:
+2019-08-01 09:51:28 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 09:51:28 - GET CUSTOMER000
+2019-08-01 09:51:28 - GET CUSTOMER TIME : 2.7318906784058E-7
+2019-08-01 09:51:31 - MENU : menu
+2019-08-01 09:51:31 - MENU INPUT : 1234
+2019-08-01 09:51:31 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:489f1df2-1c80-c114-2889-1c51030f564a:
+2019-08-01 09:51:31 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 09:51:31 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 09:51:35 - MENU : home
+2019-08-01 09:51:35 - MENU INPUT : 4
+2019-08-01 09:51:35 - UP : home
+2019-08-01 09:51:35 - MENU RESPONSES : home -> 
+2019-08-01 09:51:35 - DOWN : pinReset
+2019-08-01 09:51:35 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 10:26:06 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:d8708fd2-6cd9-3c1e-b790-0d8fe9d16b8e:
+2019-08-01 10:26:06 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 10:26:06 - GET CUSTOMER000
+2019-08-01 10:26:06 - GET CUSTOMER TIME : 4.178786277771E-8
+2019-08-01 10:26:09 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:22b201b7-b46b-fa6f-5e46-20e8ad68b46e:
+2019-08-01 10:26:09 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 10:26:09 - GET CUSTOMER000
+2019-08-01 10:26:09 - GET CUSTOMER TIME : 2.6264905929565E-8
+2019-08-01 10:26:11 - MENU : menu
+2019-08-01 10:26:11 - MENU INPUT : 1234
+2019-08-01 10:26:11 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:bf0a51d1-dfab-f148-23b6-dd79df202006:
+2019-08-01 10:26:11 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 10:26:11 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 10:26:17 - MENU : home
+2019-08-01 10:26:17 - MENU INPUT : 4
+2019-08-01 10:26:17 - UP : home
+2019-08-01 10:26:17 - MENU RESPONSES : home -> 
+2019-08-01 10:26:17 - DOWN : pinReset
+2019-08-01 10:26:17 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 10:26:20 - MENU : MOBILEPROVIDER
+2019-08-01 10:26:20 - MENU INPUT : 1
+2019-08-01 10:26:20 - UP : MOBILEPROVIDER
+2019-08-01 10:26:20 - MENU RESPONSES : MOBILEPROVIDER -> 
+2019-08-01 10:26:20 - DOWN : pinReset
+2019-08-01 10:26:20 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"MOBILEPROVIDER";s:8:"response";s:25:"
+1 My Phone
+2 Other Phone";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:20:"PinlessAirtimeAmount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:14:"pinlessMsisdn2";}i:2;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"airtimeConfirm";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 10:26:23 - MENU : PinlessAirtimeAmount
+2019-08-01 10:26:23 - MENU INPUT : 1000
+2019-08-01 10:26:23 - UP : PinlessAirtimeAmount
+2019-08-01 10:26:23 - MENU RESPONSES : PinlessAirtimeAmount -> 
+2019-08-01 10:26:23 - DOWN : pinReset
+2019-08-01 10:26:23 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:20:"PinlessAirtimeAmount";s:8:"response";s:26:"Reply with Airtime amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:18:"AirtimeOwnAccounts";}}s:4:"type";s:4:"form";s:4:"name";s:20:"PinlessAirtimeAmount";s:6:"action";s:3:"con";}
+2019-08-01 10:26:23 - ERROR : AirtimeOwnAccounts
+2019-08-01 10:26:23 - MMMMMMM : AirtimeOwnAccounts
+2019-08-01 10:26:26 - MENU : AirtimeOwnAccounts
+2019-08-01 10:26:26 - MENU INPUT : 1
+2019-08-01 10:26:26 - UP : AirtimeOwnAccounts
+2019-08-01 10:26:26 - MENU RESPONSES : AirtimeOwnAccounts -> 
+2019-08-01 10:26:26 - DOWN : pinReset
+2019-08-01 10:26:26 - ERROR : AirtimeOwnAccounts
+2019-08-01 10:26:26 - MMMMMMM : AirtimeOwnAccounts
+2019-08-01 10:26:26 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:18:"AirtimeOwnAccounts";s:6:"action";s:3:"con";s:8:"response";s:118:"Select Source Account 
+1. Pride/218210027132501
+2. Pride/223205003324501
+3. Pride/223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:7:"Airtime";}}s:4:"type";s:4:"form";}
+2019-08-01 10:26:26 - ERROR : Airtime
+2019-08-01 10:26:26 - MMMMMMM : Airtime
+2019-08-01 10:26:27 - MENU : Airtime
+2019-08-01 10:26:27 - MENU INPUT : 1
+2019-08-01 10:26:27 - UP : Airtime
+2019-08-01 10:26:27 - MENU RESPONSES : Airtime -> 
+2019-08-01 10:26:27 - DOWN : pinReset
+2019-08-01 10:26:27 - ERROR : Airtime
+2019-08-01 10:26:27 - MMMMMMM : Airtime
+2019-08-01 10:26:27 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:7:"Airtime";s:6:"action";s:3:"con";s:8:"response";s:104:"You are buying airtime of 1000 from  Pride/218210027132501 bank Reply with:
+1. Accept
+2. Cancel 
+0. Home";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AirtimeConfirm";}}s:4:"type";s:4:"form";}
+2019-08-01 10:26:27 - ERROR : AirtimeConfirm
+2019-08-01 10:26:27 - MMMMMMM : AirtimeConfirm
+2019-08-01 10:26:27 - TRANSACTION TIME : -0.00019979476928711
+2019-08-01 10:26:30 - MENU : AirtimeConfirm
+2019-08-01 10:26:30 - MENU INPUT : 1234
+2019-08-01 10:26:30 - UP : AirtimeConfirm
+2019-08-01 10:26:30 - MENU RESPONSES : AirtimeConfirm -> 
+2019-08-01 10:26:30 - DOWN : pinReset
+2019-08-01 10:26:30 - ERROR : AirtimeConfirm
+2019-08-01 10:26:30 - MMMMMMM : AirtimeConfirm
+2019-08-01 10:26:30 - AIRTIME REQUEST : FORMID:M-:MERCHANTID:AIRTELUG:ACCOUNTID:256700146817:AMOUNT:1000:TMPIN:1234:BANKNAME:PML:BANKACCOUNTID:218210027132501:ACTION:PAYBILL:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:QUICKPAY:NO:UNIQUEID:5cc1cf98-1650-85b2-4056-304cc4cbffab:
+2019-08-01 10:26:34 - MENU : pinReset
+2019-08-01 10:26:34 - MENU INPUT : 1234
+2019-08-01 10:26:34 - UP : pinReset
+2019-08-01 10:26:34 - MENU RESPONSES : pinReset -> 
+2019-08-01 10:26:34 - DOWN : pinReset
+2019-08-01 10:26:34 - ERROR : pinReset
+2019-08-01 10:26:34 - MMMMMMM : pinReset
+2019-08-01 10:26:35 - AIRTIME RESPONSE : 
+Error025-Your Bank is not responding to the requests. Please try later. You may contact us at 
+2019-08-01 10:26:35 - DOWN MENU : O:8:"stdClass":4:{s:6:"action";s:3:"end";s:8:"response";s:68:"There was a problem processing your request. Please try again later.";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:9:"groupsave";}}s:4:"type";s:6:"static";}
+2019-08-01 11:42:43 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:a2be5421-e1fc-6d63-b373-5e25ab2d97c7:
+2019-08-01 11:42:43 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:42:43 - GET CUSTOMER000
+2019-08-01 11:42:43 - GET CUSTOMER TIME : 5.7945013046265E-8
+2019-08-01 11:42:46 - MENU : menu
+2019-08-01 11:42:46 - MENU INPUT : 1234
+2019-08-01 11:42:46 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:25348923-bf79-a473-fea8-189a40f8d8c0:
+2019-08-01 11:42:46 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 11:42:46 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 11:42:50 - MENU : home
+2019-08-01 11:42:50 - MENU INPUT : 2
+2019-08-01 11:42:50 - UP : home
+2019-08-01 11:42:50 - MENU RESPONSES : home -> 
+2019-08-01 11:42:50 - DOWN : pinReset
+2019-08-01 11:42:50 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:42:50 - ERROR : StatementAccounts
+2019-08-01 11:42:50 - MMMMMMM : StatementAccounts
+2019-08-01 11:42:53 - MENU : StatementAccounts
+2019-08-01 11:42:53 - MENU INPUT : 3
+2019-08-01 11:42:53 - UP : StatementAccounts
+2019-08-01 11:42:53 - MENU RESPONSES : StatementAccounts -> 
+2019-08-01 11:42:53 - DOWN : pinReset
+2019-08-01 11:42:53 - ERROR : StatementAccounts
+2019-08-01 11:42:53 - MMMMMMM : StatementAccounts
+2019-08-01 11:42:53 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:17:"StatementAccounts";s:6:"action";s:3:"con";s:8:"response";s:88:"Select Bank:
+1. Pride/218210027132501
+2. Pride/223205003324501
+3. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:16:"AccountStatement";}}s:4:"type";s:4:"form";}
+2019-08-01 11:42:53 - ERROR : AccountStatement
+2019-08-01 11:42:53 - MMMMMMM : AccountStatement
+2019-08-01 11:42:53 - MINISTATEMENT REQUEST : FORMID:B-:MERCHANTID:STATEMENT:BANKACCOUNTID:223206003324501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:3aeb6c7f-74c8-1e7d-4aa0-5bf294b25d16:
+2019-08-01 11:42:57 - MENU : groupsave
+2019-08-01 11:42:57 - MENU INPUT : 3
+2019-08-01 11:42:57 - UP : groupsave
+2019-08-01 11:42:57 - MENU RESPONSES : groupsave -> 
+2019-08-01 11:42:57 - DOWN : pinReset
+2019-08-01 11:42:57 - ERROR : groupsave
+2019-08-01 11:42:57 - MMMMMMM : groupsave
+2019-08-01 11:42:58 - MINISTATEMENT RESPONSE : 
+STATUS:OK:DATA:DATE_TIME|SEQ_NR|TRAN_TYPE|TRAN_AMOUNT|CURR_CODE~20190627120000|000000|DR.|000000023000|800~20190627120000|000000|DR.|000000034500|800~20190627120000|000000|DR.|000000100000|800~20190627120000|000000|DR.|000000023000|800~20190627120000|000000|DR.|000000023000|800~
+2019-08-01 11:43:32 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:e3fc5cd3-78ac-c316-f673-520a5170a2dc:
+2019-08-01 11:43:33 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:43:33 - GET CUSTOMER000
+2019-08-01 11:43:33 - GET CUSTOMER TIME : 2.9157161712646E-8
+2019-08-01 11:43:36 - MENU : menu
+2019-08-01 11:43:36 - MENU INPUT : 1234
+2019-08-01 11:43:36 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:e12e611f-01c3-5f4e-b8be-dd3c424adf02:
+2019-08-01 11:43:36 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 11:43:36 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 11:43:39 - MENU : home
+2019-08-01 11:43:39 - MENU INPUT : 3
+2019-08-01 11:43:39 - UP : home
+2019-08-01 11:43:39 - MENU RESPONSES : home -> 
+2019-08-01 11:43:39 - DOWN : pinReset
+2019-08-01 11:43:39 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:43:39 - ERROR : FTAccounts
+2019-08-01 11:43:39 - MMMMMMM : FTAccounts
+2019-08-01 11:43:42 - MENU : FTAccounts
+2019-08-01 11:43:42 - MENU INPUT : 1
+2019-08-01 11:43:42 - UP : FTAccounts
+2019-08-01 11:43:42 - MENU RESPONSES : FTAccounts -> 
+2019-08-01 11:43:42 - DOWN : pinReset
+2019-08-01 11:43:42 - ERROR : FTAccounts
+2019-08-01 11:43:42 - MMMMMMM : FTAccounts
+2019-08-01 11:43:42 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"FTAccounts";s:6:"action";s:3:"con";s:8:"response";s:90:"Select Bank 
+1. 218210027132501
+2. 223205003324501
+3. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:6:"fundst";}}s:4:"type";s:4:"form";}
+2019-08-01 11:43:47 - MENU : fundst
+2019-08-01 11:43:47 - MENU INPUT : 1
+2019-08-01 11:43:47 - UP : fundst
+2019-08-01 11:43:47 - MENU RESPONSES : fundst -> 
+2019-08-01 11:43:47 - DOWN : pinReset
+2019-08-01 11:43:47 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:6:"fundst";s:8:"response";s:60:"Reply with:
+1. Direct Transfer
+2. InterBank Transfer
+0. Home";s:3:"map";a:2:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"iftFormAccount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"InterBankTransfer";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:43:56 - MENU : iftFormAccount
+2019-08-01 11:43:56 - MENU INPUT : 223205003324501
+2019-08-01 11:43:56 - UP : iftFormAccount
+2019-08-01 11:43:56 - MENU RESPONSES : iftFormAccount -> 
+2019-08-01 11:43:56 - DOWN : pinReset
+2019-08-01 11:43:56 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:14:"iftFormAccount";s:8:"response";s:29:"Enter Account To Transfer To:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";s:4:"name";s:13:"DirectAccount";s:6:"action";s:3:"con";}
+2019-08-01 11:43:56 - ERROR : validateFTAccount
+2019-08-01 11:43:56 - MMMMMMM : validateFTAccount
+2019-08-01 11:43:56 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:223205003324501:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:4399f0c8-8c93-369a-e099-b9f73be45fbd:TRXSOURCE:USSD:
+2019-08-01 11:44:17 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-08-01 11:45:55 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:6912a6d7-95e7-dd47-0045-b06688ac8c95:
+2019-08-01 11:45:55 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:45:55 - GET CUSTOMER000
+2019-08-01 11:45:55 - GET CUSTOMER TIME : 3.9911031723022E-8
+2019-08-01 11:45:58 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:d0db4ef6-174b-f8e7-d249-114c7b72429f:
+2019-08-01 11:45:58 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:45:58 - GET CUSTOMER000
+2019-08-01 11:45:58 - GET CUSTOMER TIME : 3.1118869781494E-8
+2019-08-01 11:46:00 - MENU : menu
+2019-08-01 11:46:00 - MENU INPUT : 1234
+2019-08-01 11:46:00 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:d3b617ba-74fb-7ce7-3a91-1b4afd38a07f:
+2019-08-01 11:46:00 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 11:46:00 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 11:46:04 - MENU : home
+2019-08-01 11:46:04 - MENU INPUT : 3
+2019-08-01 11:46:04 - UP : home
+2019-08-01 11:46:04 - MENU RESPONSES : home -> 
+2019-08-01 11:46:04 - DOWN : pinReset
+2019-08-01 11:46:04 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:46:04 - ERROR : FTAccounts
+2019-08-01 11:46:04 - MMMMMMM : FTAccounts
+2019-08-01 11:46:07 - MENU : FTAccounts
+2019-08-01 11:46:07 - MENU INPUT : 1
+2019-08-01 11:46:07 - UP : FTAccounts
+2019-08-01 11:46:07 - MENU RESPONSES : FTAccounts -> 
+2019-08-01 11:46:07 - DOWN : pinReset
+2019-08-01 11:46:07 - ERROR : FTAccounts
+2019-08-01 11:46:07 - MMMMMMM : FTAccounts
+2019-08-01 11:46:07 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"FTAccounts";s:6:"action";s:3:"con";s:8:"response";s:90:"Select Bank 
+1. 218210027132501
+2. 223205003324501
+3. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:6:"fundst";}}s:4:"type";s:4:"form";}
+2019-08-01 11:46:08 - MENU : fundst
+2019-08-01 11:46:08 - MENU INPUT : 1
+2019-08-01 11:46:08 - UP : fundst
+2019-08-01 11:46:08 - MENU RESPONSES : fundst -> 
+2019-08-01 11:46:08 - DOWN : pinReset
+2019-08-01 11:46:08 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:6:"fundst";s:8:"response";s:60:"Reply with:
+1. Direct Transfer
+2. InterBank Transfer
+0. Home";s:3:"map";a:2:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"iftFormAccount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"InterBankTransfer";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:46:13 - MENU : iftFormAccount
+2019-08-01 11:46:13 - MENU INPUT : 223205003324501
+2019-08-01 11:46:13 - UP : iftFormAccount
+2019-08-01 11:46:13 - MENU RESPONSES : iftFormAccount -> 
+2019-08-01 11:46:13 - DOWN : pinReset
+2019-08-01 11:46:13 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:14:"iftFormAccount";s:8:"response";s:29:"Enter Account To Transfer To:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";s:4:"name";s:13:"DirectAccount";s:6:"action";s:3:"con";}
+2019-08-01 11:46:13 - ERROR : validateFTAccount
+2019-08-01 11:46:13 - MMMMMMM : validateFTAccount
+2019-08-01 11:46:13 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:223205003324501:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:4e7b5362-217e-6289-5f9f-a31bbe3de375:TRXSOURCE:USSD:
+2019-08-01 11:46:35 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-08-01 11:50:00 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:cb77e90b-7600-0b54-25cf-26012a03721b:
+2019-08-01 11:50:01 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:50:01 - GET CUSTOMER000
+2019-08-01 11:50:01 - GET CUSTOMER TIME : 4.6930074691772E-8
+2019-08-01 11:50:03 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:79338ebd-d2c4-a8ff-f146-b1713d47c8d3:
+2019-08-01 11:50:03 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:50:03 - GET CUSTOMER000
+2019-08-01 11:50:03 - GET CUSTOMER TIME : 3.0061960220337E-8
+2019-08-01 11:50:05 - MENU : menu
+2019-08-01 11:50:05 - MENU INPUT : 1234
+2019-08-01 11:50:05 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:89562e0d-2700-3c1c-b104-c90781fe4551:
+2019-08-01 11:50:05 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 11:50:05 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 11:50:10 - MENU : home
+2019-08-01 11:50:10 - MENU INPUT : 3
+2019-08-01 11:50:10 - UP : home
+2019-08-01 11:50:10 - MENU RESPONSES : home -> 
+2019-08-01 11:50:10 - DOWN : pinReset
+2019-08-01 11:50:10 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:50:10 - ERROR : FTAccounts
+2019-08-01 11:50:10 - MMMMMMM : FTAccounts
+2019-08-01 11:50:17 - MENU : FTAccounts
+2019-08-01 11:50:17 - MENU INPUT : 1
+2019-08-01 11:50:17 - UP : FTAccounts
+2019-08-01 11:50:17 - MENU RESPONSES : FTAccounts -> 
+2019-08-01 11:50:17 - DOWN : pinReset
+2019-08-01 11:50:17 - ERROR : FTAccounts
+2019-08-01 11:50:17 - MMMMMMM : FTAccounts
+2019-08-01 11:50:17 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"FTAccounts";s:6:"action";s:3:"con";s:8:"response";s:90:"Select Bank 
+1. 218210027132501
+2. 223205003324501
+3. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:6:"fundst";}}s:4:"type";s:4:"form";}
+2019-08-01 11:50:19 - MENU : fundst
+2019-08-01 11:50:19 - MENU INPUT : 1
+2019-08-01 11:50:19 - UP : fundst
+2019-08-01 11:50:19 - MENU RESPONSES : fundst -> 
+2019-08-01 11:50:19 - DOWN : pinReset
+2019-08-01 11:50:19 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:6:"fundst";s:8:"response";s:60:"Reply with:
+1. Direct Transfer
+2. InterBank Transfer
+0. Home";s:3:"map";a:2:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"iftFormAccount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"InterBankTransfer";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:50:22 - MENU : iftFormAccount
+2019-08-01 11:50:22 - MENU INPUT : 223205003324501
+2019-08-01 11:50:22 - UP : iftFormAccount
+2019-08-01 11:50:22 - MENU RESPONSES : iftFormAccount -> 
+2019-08-01 11:50:22 - DOWN : pinReset
+2019-08-01 11:50:22 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:14:"iftFormAccount";s:8:"response";s:29:"Enter Account To Transfer To:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";s:4:"name";s:13:"DirectAccount";s:6:"action";s:3:"con";}
+2019-08-01 11:50:22 - ERROR : validateFTAccount
+2019-08-01 11:50:22 - MMMMMMM : validateFTAccount
+2019-08-01 11:50:22 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:223205003324501:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:aa8a3053-f0f3-1573-1c59-7b4c6c65238c:TRXSOURCE:USSD:
+2019-08-01 11:50:44 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-08-01 11:51:42 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:1bb05a69-e47b-2785-7339-03b32ed6cd24:
+2019-08-01 11:51:42 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:51:42 - GET CUSTOMER000
+2019-08-01 11:51:42 - GET CUSTOMER TIME : 2.4680137634277E-8
+2019-08-01 11:51:52 - MENU : menu
+2019-08-01 11:51:52 - MENU INPUT : 1
+2019-08-01 11:52:23 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256700146817225:UNIQUEID:516ae7f4-bbca-1727-03b9-82dc261e5bee:
+2019-08-01 11:52:23 - GET CUSTOMER RESPONSE : 
+STATUS:091:CUSTOMERID::COUNTRY:UGANDATEST:FIRSTNAME::LASTNAME::BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-08-01 11:52:23 - GET CUSTOMER091
+2019-08-01 11:52:25 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256700146817225:UNIQUEID:80de8d54-6129-8952-8ded-4d778be3ae3c:
+2019-08-01 11:52:25 - GET CUSTOMER RESPONSE : 
+STATUS:091:CUSTOMERID::COUNTRY:UGANDATEST:FIRSTNAME::LASTNAME::BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-08-01 11:52:25 - GET CUSTOMER091
+2019-08-01 11:59:22 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:647ce81f-35ee-672c-91a1-24344d788d7f:
+2019-08-01 11:59:22 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 11:59:22 - GET CUSTOMER000
+2019-08-01 11:59:22 - GET CUSTOMER TIME : 6.3437938690186E-8
+2019-08-01 11:59:24 - MENU : menu
+2019-08-01 11:59:24 - MENU INPUT : 1234
+2019-08-01 11:59:24 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:bae209ed-d9b5-3971-a7cd-5e11dd7ea94e:
+2019-08-01 11:59:25 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 11:59:25 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 11:59:29 - MENU : home
+2019-08-01 11:59:29 - MENU INPUT : 3
+2019-08-01 11:59:29 - UP : home
+2019-08-01 11:59:29 - MENU RESPONSES : home -> 
+2019-08-01 11:59:29 - DOWN : pinReset
+2019-08-01 11:59:29 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:59:29 - ERROR : FTAccounts
+2019-08-01 11:59:29 - MMMMMMM : FTAccounts
+2019-08-01 11:59:35 - MENU : FTAccounts
+2019-08-01 11:59:35 - MENU INPUT : 1
+2019-08-01 11:59:35 - UP : FTAccounts
+2019-08-01 11:59:35 - MENU RESPONSES : FTAccounts -> 
+2019-08-01 11:59:35 - DOWN : pinReset
+2019-08-01 11:59:35 - ERROR : FTAccounts
+2019-08-01 11:59:35 - MMMMMMM : FTAccounts
+2019-08-01 11:59:35 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"FTAccounts";s:6:"action";s:3:"con";s:8:"response";s:90:"Select Bank 
+1. 218210027132501
+2. 223205003324501
+3. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:6:"fundst";}}s:4:"type";s:4:"form";}
+2019-08-01 11:59:37 - MENU : fundst
+2019-08-01 11:59:37 - MENU INPUT : 1
+2019-08-01 11:59:37 - UP : fundst
+2019-08-01 11:59:37 - MENU RESPONSES : fundst -> 
+2019-08-01 11:59:37 - DOWN : pinReset
+2019-08-01 11:59:37 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:6:"fundst";s:8:"response";s:60:"Reply with:
+1. Direct Transfer
+2. InterBank Transfer
+0. Home";s:3:"map";a:2:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"iftFormAccount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"InterBankTransfer";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-08-01 11:59:39 - MENU : iftFormAccount
+2019-08-01 11:59:39 - MENU INPUT : 223205003324501
+2019-08-01 11:59:39 - UP : iftFormAccount
+2019-08-01 11:59:39 - MENU RESPONSES : iftFormAccount -> 
+2019-08-01 11:59:39 - DOWN : pinReset
+2019-08-01 11:59:39 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:14:"iftFormAccount";s:8:"response";s:29:"Enter Account To Transfer To:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";s:4:"name";s:13:"DirectAccount";s:6:"action";s:3:"con";}
+2019-08-01 11:59:39 - ERROR : validateFTAccount
+2019-08-01 11:59:39 - MMMMMMM : validateFTAccount
+2019-08-01 11:59:39 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:223205003324501:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:da27ede1-f986-3e80-9b1c-d5cd69085da6:TRXSOURCE:USSD:
+2019-08-01 11:59:43 - MENU : pinReset
+2019-08-01 11:59:43 - MENU INPUT : 223205003324501
+2019-08-01 11:59:43 - UP : pinReset
+2019-08-01 11:59:43 - MENU RESPONSES : pinReset -> 
+2019-08-01 11:59:43 - DOWN : pinReset
+2019-08-01 11:59:43 - ERROR : pinReset
+2019-08-01 11:59:43 - MMMMMMM : pinReset
+2019-08-01 12:00:00 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-08-01 12:00:11 - MENU : validateFTAccount
+2019-08-01 12:00:11 - MENU INPUT : 1234
+2019-08-01 12:00:11 - UP : validateFTAccount
+2019-08-01 12:00:11 - MENU RESPONSES : validateFTAccount -> 
+2019-08-01 12:00:11 - DOWN : pinReset
+2019-08-01 12:00:11 - ERROR : validateFTAccount
+2019-08-01 12:00:11 - MMMMMMM : validateFTAccount
+2019-08-01 12:00:11 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:223205003324501:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:cae4b2ff-2c8c-f730-90cc-ef40e40a231a:TRXSOURCE:USSD:
+2019-08-01 12:00:15 - MENU : pinReset
+2019-08-01 12:00:15 - MENU INPUT : 1234
+2019-08-01 12:00:15 - UP : pinReset
+2019-08-01 12:00:15 - MENU RESPONSES : pinReset -> 
+2019-08-01 12:00:15 - DOWN : pinReset
+2019-08-01 12:00:15 - ERROR : pinReset
+2019-08-01 12:00:15 - MMMMMMM : pinReset
+2019-08-01 12:00:33 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-08-01 12:00:33 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"iftFormAccount";s:6:"action";s:3:"con";s:8:"response";s:72:"Invalid Account. Please Enter a Correct Account No::
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";}
+2019-08-01 12:00:33 - ERROR : validateFTAccount
+2019-08-01 12:00:33 - MMMMMMM : validateFTAccount
+2019-08-01 12:00:33 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:223205003324501:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:42c207cf-0456-c35c-dae4-926117cf28ae:TRXSOURCE:USSD:
+2019-08-01 12:00:54 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-08-01 12:05:36 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:3aa4aa42-bb36-a789-d092-026f43ce2ded:
+2019-08-01 12:05:36 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 12:05:36 - GET CUSTOMER000
+2019-08-01 12:05:36 - GET CUSTOMER TIME : 3.8476943969727E-8
+2019-08-01 15:30:49 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:ecf446d5-51fa-6257-6dd2-3c7d982031c8:
+2019-08-01 15:30:49 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 15:30:49 - GET CUSTOMER000
+2019-08-01 15:30:49 - GET CUSTOMER TIME : 3.9790868759155E-8
+2019-08-01 16:07:08 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:2e27734b-1c32-f4b6-7b44-412d96fbf9b0:
+2019-08-01 16:07:08 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 16:07:08 - GET CUSTOMER000
+2019-08-01 16:07:08 - GET CUSTOMER TIME : 3.2829999923706E-8
+2019-08-01 16:07:52 - MENU : menu
+2019-08-01 16:07:52 - MENU INPUT : 1234
+2019-08-01 16:07:52 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:c0aa0b5d-9126-0ad3-7616-e5026e0b9fd3:
+2019-08-01 16:07:52 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223205003324501,223206003324501:
+2019-08-01 16:07:52 - LOGIN ACCOUNTS :218210027132501,223205003324501,223206003324501
+2019-08-01 16:54:28 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:1a5cc270-f33a-7ee9-c23f-ff81e3d078b3:
+2019-08-01 16:54:28 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 16:54:28 - GET CUSTOMER000
+2019-08-01 16:54:28 - GET CUSTOMER TIME : 2.3474931716919E-8
+2019-08-01 16:54:40 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:315878f0-4b0b-e820-9f57-82c96e0bfd97:
+2019-08-01 16:54:40 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 16:54:40 - GET CUSTOMER000
+2019-08-01 16:54:40 - GET CUSTOMER TIME : 2.5192975997925E-8
+2019-08-01 17:42:54 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:b4ae5b3e-7861-5c7d-3f57-ae17310165f5:
+2019-08-01 17:42:54 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-08-01 17:42:54 - GET CUSTOMER000
+2019-08-01 17:42:54 - GET CUSTOMER TIME : 3.7560939788818E-8

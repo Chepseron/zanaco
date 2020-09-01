@@ -1,0 +1,318 @@
+2019-06-21 11:06:11 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:255:COUNTRY:UGANDATEST:DEVICEID:256701775189255:UNIQUEID:5633a371-2809-c3e4-77de-93707b34ab05:
+2019-06-21 11:06:11 - GET CUSTOMER RESPONSE : 
+STATUS:091:CUSTOMERID::COUNTRY:UGANDATEST:FIRSTNAME::LASTNAME::BANKNAME::WELCOMEMESSAGE::LANGUAGE:EN
+2019-06-21 11:06:11 - GET CUSTOMER091
+2019-06-21 11:06:52 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:8c56904e-9c7d-9428-5a82-66b68ac9ccdd:
+2019-06-21 11:06:52 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-21 11:06:52 - GET CUSTOMER000
+2019-06-21 11:06:52 - GET CUSTOMER TIME : 1.6452693939209E-7
+2019-06-21 11:07:04 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:5466b3e7-7982-1872-7dd8-5a51dd1774e0:
+2019-06-21 11:07:04 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-21 11:07:04 - GET CUSTOMER000
+2019-06-21 11:07:04 - GET CUSTOMER TIME : 6.3860893249512E-8
+2019-06-21 11:07:08 - MENU : menu
+2019-06-21 11:07:08 - MENU INPUT : 1234
+2019-06-21 11:07:08 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:0017:BANKNAME:PML:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:1234:UNIQUEID:1693c52f-ad55-f832-2840-0fb4ec3de853:
+2019-06-21 11:07:09 - LOGIN RESPONSE :
+STATUS:091:DATA:Invalid Login Password
+2019-06-21 11:07:16 - MENU : pin
+2019-06-21 11:07:16 - MENU INPUT : 1111
+2019-06-21 11:07:16 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:0017:BANKNAME:PML:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:1111:UNIQUEID:a781560e-d8db-1b64-509f-76bb6b7756fd:
+2019-06-21 11:07:16 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-21 11:07:16 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-21 11:07:23 - MENU : home
+2019-06-21 11:07:23 - MENU INPUT : 6
+2019-06-21 11:07:23 - UP : home
+2019-06-21 11:07:23 - MENU RESPONSES : home -> 
+2019-06-21 11:07:23 - DOWN : pinReset
+2019-06-21 11:07:23 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-21 11:07:27 - MENU : utility
+2019-06-21 11:07:27 - MENU INPUT : 4
+2019-06-21 11:07:27 - UP : utility
+2019-06-21 11:07:27 - MENU RESPONSES : utility -> 
+2019-06-21 11:07:27 - DOWN : pinReset
+2019-06-21 11:07:27 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-21 11:07:32 - MENU : paytv
+2019-06-21 11:07:32 - MENU INPUT : 2
+2019-06-21 11:07:32 - UP : paytv
+2019-06-21 11:07:32 - MENU RESPONSES : paytv -> 
+2019-06-21 11:07:32 - DOWN : pinReset
+2019-06-21 11:07:32 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:5:"paytv";s:8:"response";s:47:"1. DSTV
+2. GOTV
+3. DSTVPVR
+4. Startimes
+0. Home";s:3:"map";a:4:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:11:"dstvPackage";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:11:"gotvPackage";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:14:"dstvpvrPackage";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:9:"Startimes";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-21 11:07:37 - MENU : gotvPackage
+2019-06-21 11:07:37 - MENU INPUT : 1
+2019-06-21 11:07:37 - UP : gotvPackage
+2019-06-21 11:07:37 - MENU RESPONSES : gotvPackage -> 
+2019-06-21 11:07:37 - DOWN : pinReset
+2019-06-21 11:07:37 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:11:"gotvPackage";s:8:"response";s:156:"Choose Package:
+1. GOtvPlus 28000 ugx
+2. GOtvValue 16000 ugx
+3. GOtvLite1 11000 ugx
+4. GOtvLite3 25000 ugx
+5. GOtvLite12 70000 ugx 
+6. GotvMax 39000
+0. Back";s:3:"map";a:6:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"dstvPeriod";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"dstvPeriod";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"dstvPeriod";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"dstvPeriod";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"dstvPeriod";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:10:"dstvPeriod";}}s:4:"type";s:7:"dynamic";s:4:"name";s:11:"dstvPackage";s:6:"action";s:3:"con";}
+2019-06-21 11:07:39 - MENU : dstvPeriod
+2019-06-21 11:07:39 - MENU INPUT : 1
+2019-06-21 11:07:39 - UP : dstvPeriod
+2019-06-21 11:07:39 - MENU RESPONSES : dstvPeriod -> 
+2019-06-21 11:07:39 - DOWN : pinReset
+2019-06-21 11:07:39 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"dstvPeriod";s:8:"response";s:43:"Choose Period:
+1. Monthly
+2. Yearly
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:15:"dstvAccountType";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:7:"Monthly";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:6:"Yearly";}}s:4:"type";s:7:"dynamic";s:4:"name";s:10:"dstvPeriod";s:6:"action";s:3:"con";}
+2019-06-21 11:07:42 - MENU : dstvAccountType
+2019-06-21 11:07:42 - MENU INPUT : 1
+2019-06-21 11:07:42 - UP : dstvAccountType
+2019-06-21 11:07:42 - MENU RESPONSES : dstvAccountType -> 
+2019-06-21 11:07:42 - DOWN : pinReset
+2019-06-21 11:07:42 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:15:"dstvAccountType";s:8:"response";s:70:"Select the account number type:
+1. CustomerNumber
+2. SmartCard
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:6:"dstvUG";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"CustomerNumber";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:9:"SmartCard";}}s:4:"type";s:7:"dynamic";s:4:"name";s:15:"dstvAccountType";s:6:"action";s:3:"con";}
+2019-06-21 11:08:00 - MENU : dstvUG
+2019-06-21 11:08:00 - MENU INPUT : 11111
+2019-06-21 11:08:00 - UP : dstvUG
+2019-06-21 11:08:00 - MENU RESPONSES : dstvUG -> 
+2019-06-21 11:08:00 - DOWN : pinReset
+2019-06-21 11:08:00 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:6:"dstvUG";s:8:"response";s:52:"Enter your smart card number or DSTV account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:12:"dstvValidate";}}s:4:"type";s:4:"form";s:4:"name";s:11:"dstvAccount";s:6:"action";s:3:"con";}
+2019-06-21 11:08:00 - ERROR : dstvValidate
+2019-06-21 11:08:00 - MMMMMMM : dstvValidate
+2019-06-21 11:08:00 - DSTV VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001014:ACCOUNTID:11111:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKNAME:PML:SHORTCODE:225:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:d4124746-2455-344e-cbe4-8de2a8b842a8:TRXSOURCE:USSD:
+2019-06-21 11:08:03 - DSTV VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Chris Mwangi|26000 UGX|19-Apr-2018
+2019-06-21 11:08:12 - MENU : dstvValidate
+2019-06-21 11:08:12 - MENU INPUT : 1
+2019-06-21 11:08:12 - UP : dstvValidate
+2019-06-21 11:08:12 - MENU RESPONSES : dstvValidate -> 
+2019-06-21 11:08:12 - DOWN : pinReset
+2019-06-21 11:08:12 - ERROR : dstvValidate
+2019-06-21 11:08:12 - MMMMMMM : dstvValidate
+2019-06-21 11:08:12 - DSTV VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001014:ACCOUNTID:11111:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKNAME:PML:SHORTCODE:225:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:4c40536e-2c50-3845-3c7c-f348d8f12956:TRXSOURCE:USSD:
+2019-06-21 11:08:12 - DSTV VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Chris Mwangi|26000 UGX|19-Apr-2018
+2019-06-21 11:08:12 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:12:"dstvValidate";s:6:"action";s:3:"con";s:8:"response";s:50:"Chris Mwangi 26000 UGX 19-Apr-2018
+1.Accept
+2.Back";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:10:"TVAccounts";}}s:4:"type";s:4:"form";}
+2019-06-21 11:08:12 - ERROR : TVAccounts
+2019-06-21 11:08:12 - MMMMMMM : TVAccounts
+2019-06-21 11:08:14 - MENU : TVAccounts
+2019-06-21 11:08:14 - MENU INPUT : 1
+2019-06-21 11:08:14 - UP : TVAccounts
+2019-06-21 11:08:14 - MENU RESPONSES : TVAccounts -> 
+2019-06-21 11:08:14 - DOWN : pinReset
+2019-06-21 11:08:14 - ERROR : TVAccounts
+2019-06-21 11:08:14 - MMMMMMM : TVAccounts
+2019-06-21 11:08:14 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"TVAccounts";s:6:"action";s:3:"con";s:8:"response";s:61:"Select Bank 
+1. 0100282823
+2. 1100115902
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:11:"dstvConfirm";}}s:4:"type";s:4:"form";}
+2019-06-21 11:08:14 - ERROR : dstvConfirm
+2019-06-21 11:08:14 - MMMMMMM : dstvConfirm
+2019-06-21 11:08:17 - MENU : dstvConfirm
+2019-06-21 11:08:17 - MENU INPUT : 1
+2019-06-21 11:08:17 - UP : dstvConfirm
+2019-06-21 11:08:17 - MENU RESPONSES : dstvConfirm -> 
+2019-06-21 11:08:17 - DOWN : pinReset
+2019-06-21 11:08:17 - ERROR : dstvConfirm
+2019-06-21 11:08:17 - MMMMMMM : dstvConfirm
+2019-06-21 11:08:17 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:11:"dstvConfirm";s:6:"action";s:3:"con";s:8:"response";s:73:"GOTV
+Pay 28000 UGX to GOTV account 11111
+ Reply with:
+1. Accept
+2. Cancel";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"dstvPinConfirm";}}s:4:"type";s:4:"form";}
+2019-06-21 11:08:17 - ERROR : dstvPinConfirm
+2019-06-21 11:08:17 - MMMMMMM : dstvPinConfirm
+2019-06-21 11:08:21 - MENU : dstvPinConfirm
+2019-06-21 11:08:21 - MENU INPUT : 1111
+2019-06-21 11:08:21 - UP : dstvPinConfirm
+2019-06-21 11:08:21 - MENU RESPONSES : dstvPinConfirm -> 
+2019-06-21 11:08:21 - DOWN : pinReset
+2019-06-21 11:08:21 - ERROR : dstvPinConfirm
+2019-06-21 11:08:21 - MMMMMMM : dstvPinConfirm
+2019-06-21 11:08:21 - DSTV REQUEST : FORMID:M-:MERCHANTID:007001014:BANKACCOUNTID:0100282823:ACCOUNTID:11111:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKNAME:PML:SHORTCODE:225:BANKID:0017:COUNTRY:UGANDATEST:AMOUNT:28000:TMPIN:1111:ACTION:PAYBILL:QUICKPAY:NO:UNIQUEID:63918da2-0c29-aa48-6eed-846777738423:TRXSOURCE:USSD:
+2019-06-21 11:08:30 - DSTV RESPONSE : 
+Your Bank is not responding to the requests. Please try later. Contact us at +256414259651/2 or info@housingfinance.co.ug
+2019-06-21 11:08:30 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"dstvPinConfirm";s:6:"action";s:3:"end";s:8:"response";s:88:"There was a problem processing your request. Please try again later:
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"dstvPinConfirm";}}s:4:"type";s:6:"static";}
+2019-06-21 11:12:37 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:eae7e8ef-950f-f183-6b1c-ccf76275587f:
+2019-06-21 11:12:37 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-21 11:12:37 - GET CUSTOMER000
+2019-06-21 11:12:37 - GET CUSTOMER TIME : 2.141740322113E-7
+2019-06-21 11:12:43 - MENU : menu
+2019-06-21 11:12:43 - MENU INPUT : 1111
+2019-06-21 11:12:43 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:0017:BANKNAME:PML:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:1111:UNIQUEID:0e7539ae-9ca3-1608-1fe6-3f8b58384ac2:
+2019-06-21 11:12:44 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-21 11:12:44 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-21 11:12:49 - MENU : home
+2019-06-21 11:12:49 - MENU INPUT : 6
+2019-06-21 11:12:49 - UP : home
+2019-06-21 11:12:49 - MENU RESPONSES : home -> 
+2019-06-21 11:12:49 - DOWN : pinReset
+2019-06-21 11:12:49 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-21 11:12:53 - MENU : utility
+2019-06-21 11:12:53 - MENU INPUT : 4
+2019-06-21 11:12:53 - UP : utility
+2019-06-21 11:12:53 - MENU RESPONSES : utility -> 
+2019-06-21 11:12:53 - DOWN : pinReset
+2019-06-21 11:12:53 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-21 11:12:59 - MENU : paytv
+2019-06-21 11:12:59 - MENU INPUT : 2
+2019-06-21 11:12:59 - UP : paytv
+2019-06-21 11:12:59 - MENU RESPONSES : paytv -> 
+2019-06-21 11:12:59 - DOWN : pinReset
+2019-06-21 11:12:59 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:5:"paytv";s:8:"response";s:47:"1. DSTV
+2. GOTV
+3. DSTVPVR
+4. Startimes
+0. Home";s:3:"map";a:4:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:11:"dstvPackage";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:11:"gotvPackage";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:14:"dstvpvrPackage";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:9:"Startimes";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-21 11:13:01 - MENU : gotvPackage
+2019-06-21 11:13:01 - MENU INPUT : 1
+2019-06-21 11:13:01 - UP : gotvPackage
+2019-06-21 11:13:01 - MENU RESPONSES : gotvPackage -> 
+2019-06-21 11:13:01 - DOWN : pinReset
+2019-06-21 11:13:01 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:11:"gotvPackage";s:8:"response";s:156:"Choose Package:
+1. GOtvPlus 28000 ugx
+2. GOtvValue 16000 ugx
+3. GOtvLite1 11000 ugx
+4. GOtvLite3 25000 ugx
+5. GOtvLite12 70000 ugx 
+6. GotvMax 39000
+0. Back";s:3:"map";a:6:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"dstvPeriod";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"dstvPeriod";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"dstvPeriod";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"dstvPeriod";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"dstvPeriod";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:10:"dstvPeriod";}}s:4:"type";s:7:"dynamic";s:4:"name";s:11:"dstvPackage";s:6:"action";s:3:"con";}
+2019-06-21 11:13:03 - MENU : dstvPeriod
+2019-06-21 11:13:03 - MENU INPUT : 1
+2019-06-21 11:13:03 - UP : dstvPeriod
+2019-06-21 11:13:03 - MENU RESPONSES : dstvPeriod -> 
+2019-06-21 11:13:03 - DOWN : pinReset
+2019-06-21 11:13:03 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"dstvPeriod";s:8:"response";s:43:"Choose Period:
+1. Monthly
+2. Yearly
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:15:"dstvAccountType";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:7:"Monthly";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:6:"Yearly";}}s:4:"type";s:7:"dynamic";s:4:"name";s:10:"dstvPeriod";s:6:"action";s:3:"con";}
+2019-06-21 11:13:06 - MENU : dstvAccountType
+2019-06-21 11:13:06 - MENU INPUT : 1
+2019-06-21 11:13:06 - UP : dstvAccountType
+2019-06-21 11:13:06 - MENU RESPONSES : dstvAccountType -> 
+2019-06-21 11:13:06 - DOWN : pinReset
+2019-06-21 11:13:06 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:15:"dstvAccountType";s:8:"response";s:70:"Select the account number type:
+1. CustomerNumber
+2. SmartCard
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:6:"dstvUG";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"CustomerNumber";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:9:"SmartCard";}}s:4:"type";s:7:"dynamic";s:4:"name";s:15:"dstvAccountType";s:6:"action";s:3:"con";}
+2019-06-21 11:13:11 - MENU : dstvUG
+2019-06-21 11:13:11 - MENU INPUT : 11111
+2019-06-21 11:13:11 - UP : dstvUG
+2019-06-21 11:13:11 - MENU RESPONSES : dstvUG -> 
+2019-06-21 11:13:11 - DOWN : pinReset
+2019-06-21 11:13:11 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:6:"dstvUG";s:8:"response";s:52:"Enter your smart card number or DSTV account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:12:"dstvValidate";}}s:4:"type";s:4:"form";s:4:"name";s:11:"dstvAccount";s:6:"action";s:3:"con";}
+2019-06-21 11:13:11 - ERROR : dstvValidate
+2019-06-21 11:13:11 - MMMMMMM : dstvValidate
+2019-06-21 11:13:11 - DSTV VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001014:ACCOUNTID:11111:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKNAME:PML:SHORTCODE:225:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:aead6ef9-99ce-f99c-007a-895b69bc2f6a:TRXSOURCE:USSD:
+2019-06-21 11:13:12 - DSTV VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Chris Mwangi|26000 UGX|19-Apr-2018
+2019-06-21 11:13:16 - MENU : dstvValidate
+2019-06-21 11:13:16 - MENU INPUT : 1
+2019-06-21 11:13:16 - UP : dstvValidate
+2019-06-21 11:13:16 - MENU RESPONSES : dstvValidate -> 
+2019-06-21 11:13:16 - DOWN : pinReset
+2019-06-21 11:13:16 - ERROR : dstvValidate
+2019-06-21 11:13:16 - MMMMMMM : dstvValidate
+2019-06-21 11:13:16 - DSTV VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001014:ACCOUNTID:11111:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKNAME:PML:SHORTCODE:225:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:e11047bb-d1fe-084b-3f1f-58d743facc5b:TRXSOURCE:USSD:
+2019-06-21 11:13:16 - DSTV VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Chris Mwangi|26000 UGX|19-Apr-2018
+2019-06-21 11:13:16 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:12:"dstvValidate";s:6:"action";s:3:"con";s:8:"response";s:50:"Chris Mwangi 26000 UGX 19-Apr-2018
+1.Accept
+2.Back";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:10:"TVAccounts";}}s:4:"type";s:4:"form";}
+2019-06-21 11:13:16 - ERROR : TVAccounts
+2019-06-21 11:13:16 - MMMMMMM : TVAccounts
+2019-06-21 11:13:19 - MENU : TVAccounts
+2019-06-21 11:13:19 - MENU INPUT : 1
+2019-06-21 11:13:19 - UP : TVAccounts
+2019-06-21 11:13:19 - MENU RESPONSES : TVAccounts -> 
+2019-06-21 11:13:19 - DOWN : pinReset
+2019-06-21 11:13:19 - ERROR : TVAccounts
+2019-06-21 11:13:19 - MMMMMMM : TVAccounts
+2019-06-21 11:13:19 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"TVAccounts";s:6:"action";s:3:"con";s:8:"response";s:61:"Select Bank 
+1. 0100282823
+2. 1100115902
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:11:"dstvConfirm";}}s:4:"type";s:4:"form";}
+2019-06-21 11:13:19 - ERROR : dstvConfirm
+2019-06-21 11:13:19 - MMMMMMM : dstvConfirm
+2019-06-21 11:13:21 - MENU : dstvConfirm
+2019-06-21 11:13:21 - MENU INPUT : 1
+2019-06-21 11:13:21 - UP : dstvConfirm
+2019-06-21 11:13:21 - MENU RESPONSES : dstvConfirm -> 
+2019-06-21 11:13:21 - DOWN : pinReset
+2019-06-21 11:13:21 - ERROR : dstvConfirm
+2019-06-21 11:13:21 - MMMMMMM : dstvConfirm
+2019-06-21 11:13:21 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:11:"dstvConfirm";s:6:"action";s:3:"con";s:8:"response";s:73:"GOTV
+Pay 28000 UGX to GOTV account 11111
+ Reply with:
+1. Accept
+2. Cancel";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"dstvPinConfirm";}}s:4:"type";s:4:"form";}
+2019-06-21 11:13:21 - ERROR : dstvPinConfirm
+2019-06-21 11:13:21 - MMMMMMM : dstvPinConfirm
+2019-06-21 11:13:25 - MENU : dstvPinConfirm
+2019-06-21 11:13:25 - MENU INPUT : 1111
+2019-06-21 11:13:25 - UP : dstvPinConfirm
+2019-06-21 11:13:25 - MENU RESPONSES : dstvPinConfirm -> 
+2019-06-21 11:13:25 - DOWN : pinReset
+2019-06-21 11:13:25 - ERROR : dstvPinConfirm
+2019-06-21 11:13:25 - MMMMMMM : dstvPinConfirm
+2019-06-21 11:13:25 - DSTV REQUEST : FORMID:M-:MERCHANTID:007001014:BANKACCOUNTID:0100282823:ACCOUNTID:11111:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKNAME:PML:SHORTCODE:225:BANKID:0017:COUNTRY:UGANDATEST:AMOUNT:28000:TMPIN:1111:ACTION:PAYBILL:QUICKPAY:NO:UNIQUEID:af503e10-c3f3-cf9b-e675-b1463b44bb50:TRXSOURCE:USSD:
+2019-06-21 11:13:27 - DSTV RESPONSE : 
+Your Bank is not responding to the requests. Please try later. Contact us at +256414259651/2 or info@housingfinance.co.ug
+2019-06-21 11:13:27 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"dstvPinConfirm";s:6:"action";s:3:"end";s:8:"response";s:88:"There was a problem processing your request. Please try again later:
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"dstvPinConfirm";}}s:4:"type";s:6:"static";}
+2019-06-21 11:15:13 - MENU : 
+2019-06-21 11:15:13 - MENU INPUT : 1111
+2019-06-21 11:15:13 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:0017:BANKNAME:PML:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:1111:UNIQUEID:f52e7c84-4597-eb86-4d58-5b1838e771e0:
+2019-06-21 11:15:13 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-21 11:15:13 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-21 15:17:58 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:1234:COUNTRY:UGANDATEST:DEVICEID:2567017751891234:UNIQUEID:12831b3e-d0e5-2f8b-9ee1-9e261e784bfa:
+2019-06-21 15:17:58 - GET CUSTOMER RESPONSE : 
+STATUS:091:CUSTOMERID::COUNTRY:UGANDATEST:FIRSTNAME::LASTNAME::BANKNAME::WELCOMEMESSAGE::LANGUAGE:EN
+2019-06-21 15:17:58 - GET CUSTOMER091
+2019-06-21 15:18:00 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:1234:COUNTRY:UGANDATEST:DEVICEID:2567017751891234:UNIQUEID:66167125-941c-b1fa-fe74-56a5081cd239:
+2019-06-21 15:18:00 - GET CUSTOMER RESPONSE : 
+STATUS:091:CUSTOMERID::COUNTRY:UGANDATEST:FIRSTNAME::LASTNAME::BANKNAME::WELCOMEMESSAGE::LANGUAGE:EN
+2019-06-21 15:18:00 - GET CUSTOMER091
+2019-06-21 15:18:06 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256701775189250:UNIQUEID:c4cec97b-459c-e4fa-e613-8eabbf72b32b:
+2019-06-21 15:18:06 - GET CUSTOMER RESPONSE : 
+STATUS:091:CUSTOMERID::COUNTRY:UGANDATEST:FIRSTNAME::LASTNAME::BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-21 15:18:06 - GET CUSTOMER091

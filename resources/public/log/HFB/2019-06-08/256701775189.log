@@ -1,0 +1,431 @@
+2019-06-08 13:30:37 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:c23cb2a9-4374-aed2-8255-c1c50f89b74a:
+2019-06-08 13:30:37 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 13:30:37 - GET CUSTOMER000
+2019-06-08 13:30:37 - GET CUSTOMER TIME : 3.0117034912109E-8
+2019-06-08 13:30:58 - MENU : menu
+2019-06-08 13:30:58 - MENU INPUT : 0000
+2019-06-08 13:30:58 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:e6142aed-ad0b-69ad-12ca-a825bbdc1364:
+2019-06-08 13:30:58 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 13:30:58 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 13:31:03 - MENU : home
+2019-06-08 13:31:03 - MENU INPUT : 1
+2019-06-08 13:31:03 - UP : home
+2019-06-08 13:31:03 - MENU RESPONSES : home -> 
+2019-06-08 13:31:03 - DOWN : pinReset
+2019-06-08 13:31:03 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 13:31:03 - ERROR : BalanceAccounts
+2019-06-08 13:31:03 - MMMMMMM : BalanceAccounts
+2019-06-08 13:31:05 - MENU : BalanceAccounts
+2019-06-08 13:31:05 - MENU INPUT : 1
+2019-06-08 13:31:05 - UP : BalanceAccounts
+2019-06-08 13:31:05 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 13:31:05 - DOWN : pinReset
+2019-06-08 13:31:05 - ERROR : BalanceAccounts
+2019-06-08 13:31:05 - MMMMMMM : BalanceAccounts
+2019-06-08 13:31:05 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 13:31:05 - ERROR : AccountBalance
+2019-06-08 13:31:05 - MMMMMMM : AccountBalance
+2019-06-08 13:31:05 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:9ad1ae88-e542-319d-c009-565f41bc93d6:
+2019-06-08 13:31:36 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:6f706a2d-c010-9bd1-13d1-e79e7c4fcae5:
+2019-06-08 13:31:36 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 13:31:36 - GET CUSTOMER000
+2019-06-08 13:31:36 - GET CUSTOMER TIME : 3.5401105880737E-8
+2019-06-08 13:31:40 - MENU : menu
+2019-06-08 13:31:40 - MENU INPUT : 0000
+2019-06-08 13:31:40 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:585619c7-8bdb-75cc-635a-5959ec095f18:
+2019-06-08 13:31:40 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 13:31:40 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 13:31:43 - MENU : home
+2019-06-08 13:31:43 - MENU INPUT : 2
+2019-06-08 13:31:43 - UP : home
+2019-06-08 13:31:43 - MENU RESPONSES : home -> 
+2019-06-08 13:31:43 - DOWN : pinReset
+2019-06-08 13:31:43 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 13:31:43 - ERROR : StatementAccounts
+2019-06-08 13:31:43 - MMMMMMM : StatementAccounts
+2019-06-08 13:31:47 - MENU : StatementAccounts
+2019-06-08 13:31:47 - MENU INPUT : 1
+2019-06-08 13:31:47 - UP : StatementAccounts
+2019-06-08 13:31:47 - MENU RESPONSES : StatementAccounts -> 
+2019-06-08 13:31:47 - DOWN : pinReset
+2019-06-08 13:31:47 - ERROR : StatementAccounts
+2019-06-08 13:31:47 - MMMMMMM : StatementAccounts
+2019-06-08 13:31:47 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:17:"StatementAccounts";s:6:"action";s:3:"con";s:8:"response";s:67:"Select Bank:
+1. FinanceTrust/0100282823
+2. FinanceTrust/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:16:"AccountStatement";}}s:4:"type";s:4:"form";}
+2019-06-08 13:31:47 - ERROR : AccountStatement
+2019-06-08 13:31:47 - MMMMMMM : AccountStatement
+2019-06-08 13:31:47 - MINISTATEMENT REQUEST : FORMID:B-:MERCHANTID:STATEMENT:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:1cb83d1b-ed43-8268-1f1e-42155adea616:
+2019-06-08 13:31:52 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:5fb29420-4759-2211-ac38-3b5f62b50c6a:
+2019-06-08 13:31:52 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 13:31:52 - GET CUSTOMER000
+2019-06-08 13:31:52 - GET CUSTOMER TIME : 3.5614013671875E-8
+2019-06-08 13:32:31 - MENU : menu
+2019-06-08 13:32:31 - MENU INPUT : 0000
+2019-06-08 13:32:31 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:6b671aa2-9d0f-a63b-509a-357306cc2d07:
+2019-06-08 13:32:31 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 13:32:31 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 13:32:37 - MENU : home
+2019-06-08 13:32:37 - MENU INPUT : 4
+2019-06-08 13:32:37 - UP : home
+2019-06-08 13:32:37 - MENU RESPONSES : home -> 
+2019-06-08 13:32:37 - DOWN : pinReset
+2019-06-08 13:32:37 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 13:32:40 - MENU : MOBILEPROVIDER
+2019-06-08 13:32:40 - MENU INPUT : 1
+2019-06-08 13:32:40 - UP : MOBILEPROVIDER
+2019-06-08 13:32:40 - MENU RESPONSES : MOBILEPROVIDER -> 
+2019-06-08 13:32:40 - DOWN : pinReset
+2019-06-08 13:32:40 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"MOBILEPROVIDER";s:8:"response";s:25:"
+1 My Phone
+2 Other Phone";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:20:"PinlessAirtimeAmount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:14:"pinlessMsisdn2";}i:2;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"airtimeConfirm";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 13:32:43 - MENU : PinlessAirtimeAmount
+2019-06-08 13:32:43 - MENU INPUT : 100
+2019-06-08 13:32:43 - UP : PinlessAirtimeAmount
+2019-06-08 13:32:43 - MENU RESPONSES : PinlessAirtimeAmount -> 
+2019-06-08 13:32:43 - DOWN : pinReset
+2019-06-08 13:32:43 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:20:"PinlessAirtimeAmount";s:8:"response";s:26:"Reply with Airtime amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:18:"AirtimeOwnAccounts";}}s:4:"type";s:4:"form";s:4:"name";s:20:"PinlessAirtimeAmount";s:6:"action";s:3:"con";}
+2019-06-08 13:32:43 - ERROR : AirtimeOwnAccounts
+2019-06-08 13:32:43 - MMMMMMM : AirtimeOwnAccounts
+2019-06-08 13:32:46 - MENU : AirtimeOwnAccounts
+2019-06-08 13:32:46 - MENU INPUT : 1
+2019-06-08 13:32:46 - UP : AirtimeOwnAccounts
+2019-06-08 13:32:47 - MENU RESPONSES : AirtimeOwnAccounts -> 
+2019-06-08 13:32:47 - DOWN : pinReset
+2019-06-08 13:32:47 - ERROR : AirtimeOwnAccounts
+2019-06-08 13:32:47 - MMMMMMM : AirtimeOwnAccounts
+2019-06-08 13:32:47 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:18:"AirtimeOwnAccounts";s:6:"action";s:3:"con";s:8:"response";s:97:"Select Source Account 
+1. FinanceTrust/0100282823
+2. FinanceTrust/1100115902
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:7:"Airtime";}}s:4:"type";s:4:"form";}
+2019-06-08 13:32:47 - ERROR : Airtime
+2019-06-08 13:32:47 - MMMMMMM : Airtime
+2019-06-08 13:32:51 - MENU : Airtime
+2019-06-08 13:32:51 - MENU INPUT : 1
+2019-06-08 13:32:51 - UP : Airtime
+2019-06-08 13:32:51 - MENU RESPONSES : Airtime -> 
+2019-06-08 13:32:51 - DOWN : pinReset
+2019-06-08 13:32:51 - ERROR : Airtime
+2019-06-08 13:32:51 - MMMMMMM : Airtime
+2019-06-08 13:32:51 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:7:"Airtime";s:6:"action";s:3:"con";s:8:"response";s:105:"You are buying airtime of 100 from  FinanceTrust/0100282823 bank Reply with:
+1. Accept
+2. Cancel 
+0. Home";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AirtimeConfirm";}}s:4:"type";s:4:"form";}
+2019-06-08 13:32:51 - ERROR : AirtimeConfirm
+2019-06-08 13:32:51 - MMMMMMM : AirtimeConfirm
+2019-06-08 13:32:51 - TRANSACTION TIME : -0.013730049133301
+2019-06-08 13:32:55 - MENU : AirtimeConfirm
+2019-06-08 13:32:55 - MENU INPUT : 0000
+2019-06-08 13:32:55 - UP : AirtimeConfirm
+2019-06-08 13:32:55 - MENU RESPONSES : AirtimeConfirm -> 
+2019-06-08 13:32:55 - DOWN : pinReset
+2019-06-08 13:32:55 - ERROR : AirtimeConfirm
+2019-06-08 13:32:55 - MMMMMMM : AirtimeConfirm
+2019-06-08 13:32:55 - AIRTIME REQUEST : FORMID:M-:MERCHANTID:AIRTELUG:ACCOUNTID:256701775189:AMOUNT:100:TMPIN:0000:BANKNAME:HFB:BANKACCOUNTID:0100282823:ACTION:PAYBILL:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:SHORTCODE:225:BANKID:23:COUNTRY:UGANDATEST:QUICKPAY:NO:UNIQUEID:9c4fa5cb-daf6-010e-fb5d-0f4f779992a5:
+2019-06-08 13:32:55 - AIRTIME RESPONSE : 
+STATUS:091:DATA:Invalid Transaction Password
+2019-06-08 13:32:56 - DOWN MENU : O:8:"stdClass":4:{s:6:"action";s:3:"end";s:8:"response";s:28:"Invalid Transaction Password";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:9:"groupsave";}}s:4:"type";s:6:"static";}
+2019-06-08 13:33:01 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:d9cea22e-e2d0-4777-a86d-bc71b6a3b6bd:
+2019-06-08 13:33:01 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 13:33:01 - GET CUSTOMER000
+2019-06-08 13:33:01 - GET CUSTOMER TIME : 2.2071123123169E-8
+2019-06-08 13:33:27 - BALANCE RESPONSE : 
+STATUS:091:DATA: +256414259651/2 or info@housingfinance.co.ug shown
+2019-06-08 13:44:12 - MINISTATEMENT RESPONSE : 
+2019-06-08 13:46:50 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:d1517f3e-0430-1d6f-ffba-c00a92b1c956:
+2019-06-08 13:46:50 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 13:46:50 - GET CUSTOMER000
+2019-06-08 13:46:50 - GET CUSTOMER TIME : 2.3867702484131E-7
+2019-06-08 13:46:54 - MENU : menu
+2019-06-08 13:46:54 - MENU INPUT : 0000
+2019-06-08 13:46:54 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:54c01219-5e0c-ee84-bf91-bfe3a5b2df98:
+2019-06-08 13:46:54 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 13:46:54 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 13:47:02 - MENU : home
+2019-06-08 13:47:02 - MENU INPUT : 1
+2019-06-08 13:47:02 - UP : home
+2019-06-08 13:47:02 - MENU RESPONSES : home -> 
+2019-06-08 13:47:02 - DOWN : pinReset
+2019-06-08 13:47:02 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 13:47:02 - ERROR : BalanceAccounts
+2019-06-08 13:47:02 - MMMMMMM : BalanceAccounts
+2019-06-08 13:47:19 - MENU : BalanceAccounts
+2019-06-08 13:47:19 - MENU INPUT : 1
+2019-06-08 13:47:19 - UP : BalanceAccounts
+2019-06-08 13:47:19 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 13:47:19 - DOWN : pinReset
+2019-06-08 13:47:19 - ERROR : BalanceAccounts
+2019-06-08 13:47:19 - MMMMMMM : BalanceAccounts
+2019-06-08 13:47:19 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 13:47:19 - ERROR : AccountBalance
+2019-06-08 13:47:19 - MMMMMMM : AccountBalance
+2019-06-08 13:47:19 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:895396a1-c343-f554-e34a-ac06397590f7:
+2019-06-08 13:48:10 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:0d8d6160-c71c-ec88-8b40-895efee91c81:
+2019-06-08 13:48:10 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 13:48:10 - GET CUSTOMER000
+2019-06-08 13:48:10 - GET CUSTOMER TIME : 2.1971940994263E-8
+2019-06-08 14:07:00 - BALANCE RESPONSE : 
+STATUS:091:DATA: +256414259651/2 or info@housingfinance.co.ug shown
+2019-06-08 14:19:33 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:1864de78-365d-c21f-bec2-33d9b80cada6:
+2019-06-08 14:19:33 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 14:19:33 - GET CUSTOMER000
+2019-06-08 14:19:33 - GET CUSTOMER TIME : 3.4518003463745E-8
+2019-06-08 14:19:37 - MENU : menu
+2019-06-08 14:19:37 - MENU INPUT : 0000
+2019-06-08 14:19:37 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:d144aae5-986e-1103-5051-3a779d619732:
+2019-06-08 14:19:37 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 14:19:37 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 14:19:41 - MENU : home
+2019-06-08 14:19:41 - MENU INPUT : 1
+2019-06-08 14:19:41 - UP : home
+2019-06-08 14:19:41 - MENU RESPONSES : home -> 
+2019-06-08 14:19:41 - DOWN : pinReset
+2019-06-08 14:19:41 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 14:19:41 - ERROR : BalanceAccounts
+2019-06-08 14:19:41 - MMMMMMM : BalanceAccounts
+2019-06-08 14:19:43 - MENU : BalanceAccounts
+2019-06-08 14:19:43 - MENU INPUT : 1
+2019-06-08 14:19:43 - UP : BalanceAccounts
+2019-06-08 14:19:43 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 14:19:43 - DOWN : pinReset
+2019-06-08 14:19:43 - ERROR : BalanceAccounts
+2019-06-08 14:19:43 - MMMMMMM : BalanceAccounts
+2019-06-08 14:19:43 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 14:19:43 - ERROR : AccountBalance
+2019-06-08 14:19:43 - MMMMMMM : AccountBalance
+2019-06-08 14:19:43 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:b34e53e6-a89d-228d-5531-57ee9d05fde1:
+2019-06-08 14:22:25 - BALANCE RESPONSE : 
+STATUS:091:DATA: +256414259651/2 or info@housingfinance.co.ug shown
+2019-06-08 15:03:51 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:4b968104-4e73-711f-b486-696273b19679:
+2019-06-08 15:03:51 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 15:03:51 - GET CUSTOMER000
+2019-06-08 15:03:51 - GET CUSTOMER TIME : 2.1862030029297E-8
+2019-06-08 15:03:55 - MENU : menu
+2019-06-08 15:03:55 - MENU INPUT : 0000
+2019-06-08 15:03:55 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:201c4fbe-f52a-692f-8f92-2056b759bf09:
+2019-06-08 15:03:55 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 15:03:55 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 15:03:57 - MENU : home
+2019-06-08 15:03:57 - MENU INPUT : 1
+2019-06-08 15:03:57 - UP : home
+2019-06-08 15:03:57 - MENU RESPONSES : home -> 
+2019-06-08 15:03:57 - DOWN : pinReset
+2019-06-08 15:03:57 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 15:03:57 - ERROR : BalanceAccounts
+2019-06-08 15:03:57 - MMMMMMM : BalanceAccounts
+2019-06-08 15:03:59 - MENU : BalanceAccounts
+2019-06-08 15:03:59 - MENU INPUT : 1
+2019-06-08 15:03:59 - UP : BalanceAccounts
+2019-06-08 15:03:59 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 15:03:59 - DOWN : pinReset
+2019-06-08 15:03:59 - ERROR : BalanceAccounts
+2019-06-08 15:03:59 - MMMMMMM : BalanceAccounts
+2019-06-08 15:03:59 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 15:03:59 - ERROR : AccountBalance
+2019-06-08 15:03:59 - MMMMMMM : AccountBalance
+2019-06-08 15:03:59 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:6d16ea5f-fcc8-a77c-af4e-a9f49f7e5702:
+2019-06-08 15:12:27 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:758886e8-52df-3432-60ce-f71977049c82:
+2019-06-08 15:12:27 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 15:12:27 - GET CUSTOMER000
+2019-06-08 15:12:27 - GET CUSTOMER TIME : 3.2448101043701E-7
+2019-06-08 15:12:31 - MENU : menu
+2019-06-08 15:12:31 - MENU INPUT : 0000
+2019-06-08 15:12:31 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:ad23921b-aca1-29d3-499c-35e1b36dd8e9:
+2019-06-08 15:12:31 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 15:12:31 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 15:12:33 - MENU : home
+2019-06-08 15:12:33 - MENU INPUT : 1
+2019-06-08 15:12:33 - UP : home
+2019-06-08 15:12:33 - MENU RESPONSES : home -> 
+2019-06-08 15:12:33 - DOWN : pinReset
+2019-06-08 15:12:33 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 15:12:33 - ERROR : BalanceAccounts
+2019-06-08 15:12:33 - MMMMMMM : BalanceAccounts
+2019-06-08 15:12:35 - MENU : BalanceAccounts
+2019-06-08 15:12:35 - MENU INPUT : 1
+2019-06-08 15:12:35 - UP : BalanceAccounts
+2019-06-08 15:12:35 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 15:12:35 - DOWN : pinReset
+2019-06-08 15:12:35 - ERROR : BalanceAccounts
+2019-06-08 15:12:35 - MMMMMMM : BalanceAccounts
+2019-06-08 15:12:35 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 15:12:35 - ERROR : AccountBalance
+2019-06-08 15:12:35 - MMMMMMM : AccountBalance
+2019-06-08 15:12:35 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:98d744dc-17b3-cf20-ecc6-5f755b1fec20:
+2019-06-08 15:14:16 - BALANCE RESPONSE : 
+STATUS:091:DATA: +256414259651/2 or info@housingfinance.co.ug shown
+2019-06-08 15:16:13 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:a55fec95-5828-7a68-509c-83573c59888a:
+2019-06-08 15:16:13 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 15:16:13 - GET CUSTOMER000
+2019-06-08 15:16:13 - GET CUSTOMER TIME : 2.2272396087646E-7
+2019-06-08 15:16:16 - MENU : menu
+2019-06-08 15:16:16 - MENU INPUT : 0000
+2019-06-08 15:16:16 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:69883382-d64b-82c1-3225-6be3920dce87:
+2019-06-08 15:16:17 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 15:16:17 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 15:16:19 - MENU : home
+2019-06-08 15:16:19 - MENU INPUT : 1
+2019-06-08 15:16:19 - UP : home
+2019-06-08 15:16:19 - MENU RESPONSES : home -> 
+2019-06-08 15:16:19 - DOWN : pinReset
+2019-06-08 15:16:19 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 15:16:19 - ERROR : BalanceAccounts
+2019-06-08 15:16:19 - MMMMMMM : BalanceAccounts
+2019-06-08 15:16:21 - MENU : BalanceAccounts
+2019-06-08 15:16:21 - MENU INPUT : 1
+2019-06-08 15:16:21 - UP : BalanceAccounts
+2019-06-08 15:16:21 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 15:16:21 - DOWN : pinReset
+2019-06-08 15:16:21 - ERROR : BalanceAccounts
+2019-06-08 15:16:21 - MMMMMMM : BalanceAccounts
+2019-06-08 15:16:21 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 15:16:21 - ERROR : AccountBalance
+2019-06-08 15:16:21 - MMMMMMM : AccountBalance
+2019-06-08 15:16:21 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:6c129bee-a6de-be2a-2c5c-326d59d3f109:
+2019-06-08 15:16:22 - BALANCE RESPONSE : 
+STATUS:091:DATA: +256414259651/2 or info@housingfinance.co.ug shown
+2019-06-08 15:16:48 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:4e409445-d72f-43a8-273b-0c4f636212ec:
+2019-06-08 15:16:48 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.:LANGUAGE:EN
+2019-06-08 15:16:48 - GET CUSTOMER000
+2019-06-08 15:16:48 - GET CUSTOMER TIME : 2.2387981414795E-8
+2019-06-08 15:16:51 - MENU : menu
+2019-06-08 15:16:51 - MENU INPUT : 0000
+2019-06-08 15:16:51 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:e3a491a3-1ec6-0ff2-9afa-eeb97d5165d2:
+2019-06-08 15:16:52 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-06-08 15:16:52 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-06-08 15:16:55 - MENU : home
+2019-06-08 15:16:55 - MENU INPUT : 1
+2019-06-08 15:16:55 - UP : home
+2019-06-08 15:16:55 - MENU RESPONSES : home -> 
+2019-06-08 15:16:55 - DOWN : pinReset
+2019-06-08 15:16:55 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-08 15:16:55 - ERROR : BalanceAccounts
+2019-06-08 15:16:55 - MMMMMMM : BalanceAccounts
+2019-06-08 15:16:57 - MENU : BalanceAccounts
+2019-06-08 15:16:57 - MENU INPUT : 1
+2019-06-08 15:16:57 - UP : BalanceAccounts
+2019-06-08 15:16:57 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-08 15:16:57 - DOWN : pinReset
+2019-06-08 15:16:57 - ERROR : BalanceAccounts
+2019-06-08 15:16:57 - MMMMMMM : BalanceAccounts
+2019-06-08 15:16:57 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-08 15:16:57 - ERROR : AccountBalance
+2019-06-08 15:16:57 - MMMMMMM : AccountBalance
+2019-06-08 15:16:57 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:323c64ba-148b-f524-92a7-3aa223bbdfd5:
+2019-06-08 15:16:57 - BALANCE RESPONSE : 
+STATUS:091:DATA: +256414259651/2 or info@housingfinance.co.ug shown

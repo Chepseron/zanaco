@@ -1,0 +1,112 @@
+2019-05-15 17:22:58 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:48e9fc64-2884-0a15-6df3-6a4c28779b13:
+2019-05-15 17:23:01 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.
+2019-05-15 17:23:01 - GET CUSTOMER000
+2019-05-15 17:23:01 - GET CUSTOMER TIME : 3.0508248806E-6
+2019-05-15 17:23:06 - MENU : menu
+2019-05-15 17:23:06 - MENU INPUT : 0000
+2019-05-15 17:23:06 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:3de90d3a-6b34-ade9-9002-ce1c3d80cd0a:
+2019-05-15 17:23:06 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-05-15 17:23:06 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-05-15 17:23:11 - MENU : home
+2019-05-15 17:23:11 - MENU INPUT : 4
+2019-05-15 17:23:11 - UP : home
+2019-05-15 17:23:11 - MENU RESPONSES : home -> 
+2019-05-15 17:23:11 - DOWN : pinReset
+2019-05-15 17:23:11 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-05-15 17:23:14 - MENU : MOBILEPROVIDER
+2019-05-15 17:23:14 - MENU INPUT : 1
+2019-05-15 17:23:14 - UP : MOBILEPROVIDER
+2019-05-15 17:23:14 - MENU RESPONSES : MOBILEPROVIDER -> 
+2019-05-15 17:23:14 - DOWN : pinReset
+2019-05-15 17:23:14 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"MOBILEPROVIDER";s:8:"response";s:25:"
+1 My Phone
+2 Other Phone";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:20:"PinlessAirtimeAmount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:14:"pinlessMsisdn2";}i:2;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"airtimeConfirm";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-05-15 17:23:18 - MENU : PinlessAirtimeAmount
+2019-05-15 17:23:18 - MENU INPUT : 100
+2019-05-15 17:23:18 - UP : PinlessAirtimeAmount
+2019-05-15 17:23:18 - MENU RESPONSES : PinlessAirtimeAmount -> 
+2019-05-15 17:23:18 - DOWN : pinReset
+2019-05-15 17:23:18 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:20:"PinlessAirtimeAmount";s:8:"response";s:26:"Reply with Airtime amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:18:"AirtimeOwnAccounts";}}s:4:"type";s:4:"form";s:4:"name";s:20:"PinlessAirtimeAmount";s:6:"action";s:3:"con";}
+2019-05-15 17:23:18 - ERROR : AirtimeOwnAccounts
+2019-05-15 17:23:18 - MMMMMMM : AirtimeOwnAccounts
+2019-05-15 17:23:21 - MENU : AirtimeOwnAccounts
+2019-05-15 17:23:21 - MENU INPUT : 1
+2019-05-15 17:23:21 - UP : AirtimeOwnAccounts
+2019-05-15 17:23:21 - MENU RESPONSES : AirtimeOwnAccounts -> 
+2019-05-15 17:23:21 - DOWN : pinReset
+2019-05-15 17:23:21 - ERROR : AirtimeOwnAccounts
+2019-05-15 17:23:21 - MMMMMMM : AirtimeOwnAccounts
+2019-05-15 17:23:21 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:18:"AirtimeOwnAccounts";s:6:"action";s:3:"con";s:8:"response";s:97:"Select Source Account 
+1. FinanceTrust/0100282823
+2. FinanceTrust/1100115902
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:7:"Airtime";}}s:4:"type";s:4:"form";}
+2019-05-15 17:23:21 - ERROR : Airtime
+2019-05-15 17:23:21 - MMMMMMM : Airtime
+2019-05-15 17:23:25 - MENU : Airtime
+2019-05-15 17:23:25 - MENU INPUT : 1
+2019-05-15 17:23:25 - UP : Airtime
+2019-05-15 17:23:25 - MENU RESPONSES : Airtime -> 
+2019-05-15 17:23:25 - DOWN : pinReset
+2019-05-15 17:23:25 - ERROR : Airtime
+2019-05-15 17:23:25 - MMMMMMM : Airtime
+2019-05-15 17:23:25 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:7:"Airtime";s:6:"action";s:3:"con";s:8:"response";s:105:"You are buying airtime of 100 from  FinanceTrust/0100282823 bank Reply with:
+1. Accept
+2. Cancel 
+0. Home";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AirtimeConfirm";}}s:4:"type";s:4:"form";}
+2019-05-15 17:23:25 - ERROR : AirtimeConfirm
+2019-05-15 17:23:25 - MMMMMMM : AirtimeConfirm
+2019-05-15 17:23:25 - AIRTIME REQUEST : FORMID:M-:MERCHANTID:AIRTELUG:ACCOUNTID:256701775189:AMOUNT:100:TMPIN:0000:BANKNAME:HFB:BANKACCOUNTID:0100282823:ACTION:PAYBILL:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:SHORTCODE:225:BANKID:23:COUNTRY:UGANDATEST:QUICKPAY:NO:UNIQUEID:c11280eb-b3d1-0eef-3eff-898b1dcb9b56:
+2019-05-15 17:23:53 - AIRTIME RESPONSE : 
+
+2019-05-15 17:44:07 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256701775189:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:UNIQUEID:13140db5-c610-7b00-fd31-b8ae48c74180:
+2019-05-15 17:44:07 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:3721925500:COUNTRY:UGANDATEST:FIRSTNAME:Ssekiriwo:LASTNAME:Andrew:BANKNAME:Housing finance Bank:WELCOMEMESSAGE:Welcome to HFB Mobile. Please enter your HFB Mobile PIN number.
+2019-05-15 17:44:07 - GET CUSTOMER000
+2019-05-15 17:44:07 - GET CUSTOMER TIME : 1.8558502197266E-7
+2019-05-15 17:44:11 - MENU : menu
+2019-05-15 17:44:11 - MENU INPUT : 0000
+2019-05-15 17:44:11 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:BANKNAME:HFB:SHORTCODE:225:COUNTRY:UGANDATEST:DEVICEID:256701775189225:LOGINMPIN:0000:UNIQUEID:0e810165-2aac-2628-3200-76f3f24675e5:
+2019-05-15 17:44:11 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:0100282823,1100115902:
+2019-05-15 17:44:11 - LOGIN ACCOUNTS :0100282823,1100115902
+2019-05-15 17:44:14 - MENU : home
+2019-05-15 17:44:14 - MENU INPUT : 1
+2019-05-15 17:44:14 - UP : home
+2019-05-15 17:44:14 - MENU RESPONSES : home -> 
+2019-05-15 17:44:14 - DOWN : pinReset
+2019-05-15 17:44:14 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-05-15 17:44:14 - ERROR : BalanceAccounts
+2019-05-15 17:44:14 - MMMMMMM : BalanceAccounts
+2019-05-15 17:44:16 - MENU : BalanceAccounts
+2019-05-15 17:44:16 - MENU INPUT : 1
+2019-05-15 17:44:16 - UP : BalanceAccounts
+2019-05-15 17:44:16 - MENU RESPONSES : BalanceAccounts -> 
+2019-05-15 17:44:16 - DOWN : pinReset
+2019-05-15 17:44:16 - ERROR : BalanceAccounts
+2019-05-15 17:44:16 - MMMMMMM : BalanceAccounts
+2019-05-15 17:44:16 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:49:"Select bank:
+1. HFB/0100282823
+2. HFB/1100115902
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-05-15 17:44:16 - ERROR : AccountBalance
+2019-05-15 17:44:16 - MMMMMMM : AccountBalance
+2019-05-15 17:44:16 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:0100282823:SHORTCODE:225:CUSTOMERID:3721925500:MOBILENUMBER:256701775189:BANKID:23:COUNTRY:UGANDATEST:UNIQUEID:dfac4d58-705a-0c11-9435-d9c1769ce628:

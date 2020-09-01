@@ -1,0 +1,935 @@
+2019-06-20 15:17:22 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:f3f8454f-a94a-2182-94ff-7698293ab4b1:
+2019-06-20 15:17:22 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:17:22 - GET CUSTOMER000
+2019-06-20 15:17:22 - GET CUSTOMER TIME : 3.0149936676025E-8
+2019-06-20 15:17:26 - MENU : menu
+2019-06-20 15:17:26 - MENU INPUT : 1234
+2019-06-20 15:17:26 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:79dd6fa8-1f8e-db57-334a-8e81029071ac:
+2019-06-20 15:17:26 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:17:26 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:17:29 - MENU : home
+2019-06-20 15:17:29 - MENU INPUT : 1
+2019-06-20 15:17:29 - UP : home
+2019-06-20 15:17:29 - MENU RESPONSES : home -> 
+2019-06-20 15:17:29 - DOWN : pinReset
+2019-06-20 15:17:29 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:17:29 - ERROR : BalanceAccounts
+2019-06-20 15:17:29 - MMMMMMM : BalanceAccounts
+2019-06-20 15:17:32 - MENU : BalanceAccounts
+2019-06-20 15:17:32 - MENU INPUT : 1
+2019-06-20 15:17:32 - UP : BalanceAccounts
+2019-06-20 15:17:32 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-20 15:17:32 - DOWN : pinReset
+2019-06-20 15:17:32 - ERROR : BalanceAccounts
+2019-06-20 15:17:32 - MMMMMMM : BalanceAccounts
+2019-06-20 15:17:32 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-20 15:17:32 - ERROR : AccountBalance
+2019-06-20 15:17:32 - MMMMMMM : AccountBalance
+2019-06-20 15:17:32 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:578804f2-c821-91c3-5512-028f11a66e47:
+2019-06-20 15:17:36 - BALANCE RESPONSE : 
+STATUS:OK:DATA:BankPRIDEBalance;UGXActual;6,522,034.31 CRAvailable;6,522,034.31 CR shown
+2019-06-20 15:30:38 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:792dcbf2-a73b-ab0b-24c5-67b796f5af43:
+2019-06-20 15:30:38 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:30:38 - GET CUSTOMER000
+2019-06-20 15:30:38 - GET CUSTOMER TIME : 9.1084003448486E-8
+2019-06-20 15:30:42 - MENU : menu
+2019-06-20 15:30:42 - MENU INPUT : 1234
+2019-06-20 15:30:42 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:d09fcb35-1a06-e3d6-9c1c-000eeb0c20e0:
+2019-06-20 15:30:42 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:30:42 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:30:46 - MENU : home
+2019-06-20 15:30:46 - MENU INPUT : 2
+2019-06-20 15:30:46 - UP : home
+2019-06-20 15:30:46 - MENU RESPONSES : home -> 
+2019-06-20 15:30:46 - DOWN : pinReset
+2019-06-20 15:30:46 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:30:46 - ERROR : StatementAccounts
+2019-06-20 15:30:46 - MMMMMMM : StatementAccounts
+2019-06-20 15:30:49 - MENU : StatementAccounts
+2019-06-20 15:30:49 - MENU INPUT : 1
+2019-06-20 15:30:49 - UP : StatementAccounts
+2019-06-20 15:30:49 - MENU RESPONSES : StatementAccounts -> 
+2019-06-20 15:30:49 - DOWN : pinReset
+2019-06-20 15:30:49 - ERROR : StatementAccounts
+2019-06-20 15:30:49 - MMMMMMM : StatementAccounts
+2019-06-20 15:30:49 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:17:"StatementAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select Bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:16:"AccountStatement";}}s:4:"type";s:4:"form";}
+2019-06-20 15:30:49 - ERROR : AccountStatement
+2019-06-20 15:30:49 - MMMMMMM : AccountStatement
+2019-06-20 15:30:49 - MINISTATEMENT REQUEST : FORMID:B-:MERCHANTID:STATEMENT:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:746aef9f-5b4a-388f-5037-b109f4f174ae:
+2019-06-20 15:30:50 - MINISTATEMENT RESPONSE : 
+STATUS:OK:DATA:19/06/19 CR. 170,000 19/06/19 CR. 70,000 12/06/19 CR. 50,000 11/06/19 CR. 70,000 07/06/19 CR. 100,000 
+2019-06-20 15:34:07 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:5bc5a720-3996-c1aa-5aeb-b648f09e1d81:
+2019-06-20 15:34:07 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:34:07 - GET CUSTOMER000
+2019-06-20 15:34:07 - GET CUSTOMER TIME : 3.2978057861328E-8
+2019-06-20 15:34:11 - MENU : menu
+2019-06-20 15:34:11 - MENU INPUT : 1234
+2019-06-20 15:34:11 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:16dc2489-67d8-668f-fd13-f5ac3e04e734:
+2019-06-20 15:34:11 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:34:11 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:34:23 - MENU : home
+2019-06-20 15:34:23 - MENU INPUT : 6
+2019-06-20 15:34:23 - UP : home
+2019-06-20 15:34:23 - MENU RESPONSES : home -> 
+2019-06-20 15:34:23 - DOWN : pinReset
+2019-06-20 15:34:23 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:34:26 - MENU : utility
+2019-06-20 15:34:26 - MENU INPUT : 1
+2019-06-20 15:34:26 - UP : utility
+2019-06-20 15:34:26 - MENU RESPONSES : utility -> 
+2019-06-20 15:34:26 - DOWN : pinReset
+2019-06-20 15:34:26 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:72:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+5. KIS
+6. URA
+0. Home";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"KISOPTIONS";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:3:"URA";}i:6;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 15:34:29 - MENU : formWaterArea
+2019-06-20 15:34:29 - MENU INPUT : 1
+2019-06-20 15:34:29 - UP : formWaterArea
+2019-06-20 15:34:29 - MENU RESPONSES : formWaterArea -> 
+2019-06-20 15:34:29 - DOWN : pinReset
+2019-06-20 15:34:29 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:13:"formWaterArea";s:8:"response";s:103:"Choose Area:
+1:Kampala
+2:Jinja
+3:Entebe
+4:Iganga
+5:Lugazi
+6:Mukono
+7:Kajjansi
+8:Kawuku
+9:Others
+0. Home";s:3:"map";a:9:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"NATWATERUG";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"NATWATERUG";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"NATWATERUG";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"NATWATERUG";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"NATWATERUG";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:10:"NATWATERUG";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:10:"NATWATERUG";}i:7;O:8:"stdClass":2:{s:3:"key";s:1:"8";s:4:"menu";s:10:"NATWATERUG";}i:8;O:8:"stdClass":2:{s:3:"key";s:1:"9";s:4:"menu";s:10:"NATWATERUG";}}s:4:"type";s:7:"dynamic";s:4:"name";s:4:"area";s:6:"action";s:3:"con";}
+2019-06-20 15:34:40 - MENU : NATWATERUG
+2019-06-20 15:34:40 - MENU INPUT : 21613163
+2019-06-20 15:34:40 - UP : NATWATERUG
+2019-06-20 15:34:40 - MENU RESPONSES : NATWATERUG -> 
+2019-06-20 15:34:40 - DOWN : pinReset
+2019-06-20 15:34:40 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"NATWATERUG";s:8:"response";s:32:"Enter your water account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:13:"waterValidate";}}s:4:"type";s:4:"form";s:4:"name";s:2:"ac";s:6:"action";s:3:"con";}
+2019-06-20 15:34:40 - ERROR : waterValidate
+2019-06-20 15:34:40 - MMMMMMM : waterValidate
+2019-06-20 15:34:40 - WATER VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001003:INFOFIELD1:Kampala:ACCOUNTID:21613163:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:d587086e-7119-8ad4-225a-6783fd0e2dfd:TRXSOURCE:USSD:
+2019-06-20 15:34:41 - WATER VALIDATE RESPONSE : 
+STATUS:091:MESSAGE:Invalid customer reference
+2019-06-20 15:34:58 - MENU : waterValidate
+2019-06-20 15:34:58 - MENU INPUT : 21316163
+2019-06-20 15:34:58 - UP : waterValidate
+2019-06-20 15:34:58 - MENU RESPONSES : waterValidate -> 
+2019-06-20 15:34:58 - DOWN : pinReset
+2019-06-20 15:34:58 - ERROR : waterValidate
+2019-06-20 15:34:58 - MMMMMMM : waterValidate
+2019-06-20 15:34:58 - WATER VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001003:INFOFIELD1:Kampala:ACCOUNTID:21613163:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:59dcbb52-fec8-fd99-4c2a-87c2c58ecdc9:TRXSOURCE:USSD:
+2019-06-20 15:34:58 - WATER VALIDATE RESPONSE : 
+STATUS:091:MESSAGE:Invalid customer reference
+2019-06-20 15:34:58 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"NATWATERUG";s:6:"action";s:3:"con";s:8:"response";s:57:"Invalid account: Enter account number
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:13:"waterValidate";}}s:4:"type";s:4:"form";}
+2019-06-20 15:34:58 - ERROR : waterValidate
+2019-06-20 15:34:58 - MMMMMMM : waterValidate
+2019-06-20 15:34:58 - WATER VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001003:INFOFIELD1:Kampala:ACCOUNTID:21613163:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:cc5e6662-5f54-5422-75f0-64293ae52696:TRXSOURCE:USSD:
+2019-06-20 15:34:59 - WATER VALIDATE RESPONSE : 
+STATUS:091:MESSAGE:Invalid customer reference
+2019-06-20 15:35:04 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:41de8490-3e82-4053-cd67-30b2600128ac:
+2019-06-20 15:35:04 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:35:04 - GET CUSTOMER000
+2019-06-20 15:35:04 - GET CUSTOMER TIME : 2.3056030273437E-8
+2019-06-20 15:35:07 - MENU : menu
+2019-06-20 15:35:07 - MENU INPUT : 1234
+2019-06-20 15:35:07 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:00da2824-de08-7b95-a099-4077fb22dc70:
+2019-06-20 15:35:07 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:35:07 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:35:11 - MENU : home
+2019-06-20 15:35:11 - MENU INPUT : 6
+2019-06-20 15:35:11 - UP : home
+2019-06-20 15:35:11 - MENU RESPONSES : home -> 
+2019-06-20 15:35:11 - DOWN : pinReset
+2019-06-20 15:35:11 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:35:28 - MENU : utility
+2019-06-20 15:35:28 - MENU INPUT : 6
+2019-06-20 15:35:28 - UP : utility
+2019-06-20 15:35:28 - MENU RESPONSES : utility -> 
+2019-06-20 15:35:28 - DOWN : pinReset
+2019-06-20 15:35:28 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:72:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+5. KIS
+6. URA
+0. Home";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"KISOPTIONS";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:3:"URA";}i:6;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 15:35:35 - MENU : URA
+2019-06-20 15:35:35 - MENU INPUT : 62619249ds
+2019-06-20 15:35:35 - UP : URA
+2019-06-20 15:35:35 - MENU RESPONSES : URA -> 
+2019-06-20 15:35:35 - DOWN : pinReset
+2019-06-20 15:35:35 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:3:"URA";s:8:"response";s:19:"Enter ESlip Number:";s:3:"map";a:2:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:11:"ValidateURA";}i:1;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:13:"URAPinConfirm";}}s:4:"type";s:4:"form";s:4:"name";s:5:"acURA";s:6:"action";s:3:"con";}
+2019-06-20 15:35:35 - ERROR : ValidateURA
+2019-06-20 15:35:35 - MMMMMMM : ValidateURA
+2019-06-20 15:35:41 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:52ce591a-39e5-a172-9ec3-2ecbced33222:
+2019-06-20 15:35:41 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:35:41 - GET CUSTOMER000
+2019-06-20 15:35:41 - GET CUSTOMER TIME : 2.9051065444946E-8
+2019-06-20 15:35:45 - MENU : menu
+2019-06-20 15:35:45 - MENU INPUT : 1234
+2019-06-20 15:35:45 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:63df79e2-4f07-6bea-6e7b-00126a1dbad3:
+2019-06-20 15:35:45 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:35:45 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:35:49 - MENU : home
+2019-06-20 15:35:49 - MENU INPUT : 6
+2019-06-20 15:35:49 - UP : home
+2019-06-20 15:35:49 - MENU RESPONSES : home -> 
+2019-06-20 15:35:49 - DOWN : pinReset
+2019-06-20 15:35:49 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:35:54 - MENU : utility
+2019-06-20 15:35:54 - MENU INPUT : 4
+2019-06-20 15:35:54 - UP : utility
+2019-06-20 15:35:54 - MENU RESPONSES : utility -> 
+2019-06-20 15:35:54 - DOWN : pinReset
+2019-06-20 15:35:54 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:72:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+5. KIS
+6. URA
+0. Home";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"KISOPTIONS";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:3:"URA";}i:6;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 15:35:58 - MENU : paytv
+2019-06-20 15:35:58 - MENU INPUT : 1
+2019-06-20 15:35:58 - UP : paytv
+2019-06-20 15:35:58 - MENU RESPONSES : paytv -> 
+2019-06-20 15:35:58 - DOWN : pinReset
+2019-06-20 15:35:58 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:5:"paytv";s:8:"response";s:47:"1. DSTV
+2. GOTV
+3. DSTVPVR
+4. Startimes
+0. Home";s:3:"map";a:4:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:11:"dstvPackage";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:11:"gotvPackage";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:14:"dstvpvrPackage";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:9:"Startimes";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 15:36:01 - MENU : dstvPackage
+2019-06-20 15:36:01 - MENU INPUT : 1
+2019-06-20 15:36:01 - UP : dstvPackage
+2019-06-20 15:36:01 - MENU RESPONSES : dstvPackage -> 
+2019-06-20 15:36:01 - DOWN : pinReset
+2019-06-20 15:36:01 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:11:"dstvPackage";s:8:"response";s:138:"Choose Package:
+1. Premium 280,000 ugx
+2. CompactPlus 180,000 ugx
+3. Compact 115,000 ugx
+4. Family 60,000 ugx
+5. Access 33,000 ugx
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"dstvPeriod";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"dstvPeriod";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"dstvPeriod";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"dstvPeriod";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"dstvPeriod";}}s:4:"type";s:7:"dynamic";s:4:"name";s:11:"dstvPackage";s:6:"action";s:3:"con";}
+2019-06-20 15:36:06 - MENU : dstvPeriod
+2019-06-20 15:36:06 - MENU INPUT : 2
+2019-06-20 15:36:06 - UP : dstvPeriod
+2019-06-20 15:36:06 - MENU RESPONSES : dstvPeriod -> 
+2019-06-20 15:36:06 - DOWN : pinReset
+2019-06-20 15:36:06 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"dstvPeriod";s:8:"response";s:43:"Choose Period:
+1. Monthly
+2. Yearly
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:15:"dstvAccountType";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:7:"Monthly";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:6:"Yearly";}}s:4:"type";s:7:"dynamic";s:4:"name";s:10:"dstvPeriod";s:6:"action";s:3:"con";}
+2019-06-20 15:36:06 - ERROR : Monthly
+2019-06-20 15:36:06 - MMMMMMM : Monthly
+2019-06-20 15:36:09 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:74cf0401-f215-fb38-b747-60f765655cee:
+2019-06-20 15:36:09 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:36:09 - GET CUSTOMER000
+2019-06-20 15:36:09 - GET CUSTOMER TIME : 3.5364151000977E-8
+2019-06-20 15:36:13 - MENU : menu
+2019-06-20 15:36:13 - MENU INPUT : 1237
+2019-06-20 15:36:13 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1237:UNIQUEID:882cc8bb-af3d-2290-e400-7e470c0f97e5:
+2019-06-20 15:36:13 - LOGIN RESPONSE :
+STATUS:091:DATA:Invalid Login Password
+2019-06-20 15:36:17 - MENU : pin
+2019-06-20 15:36:17 - MENU INPUT : 1234
+2019-06-20 15:36:17 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:aa404fcf-039e-f340-d2ea-ae012668aa66:
+2019-06-20 15:36:17 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:36:17 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:36:21 - MENU : home
+2019-06-20 15:36:21 - MENU INPUT : 6
+2019-06-20 15:36:21 - UP : home
+2019-06-20 15:36:21 - MENU RESPONSES : home -> 
+2019-06-20 15:36:21 - DOWN : pinReset
+2019-06-20 15:36:21 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:36:26 - MENU : utility
+2019-06-20 15:36:26 - MENU INPUT : 2
+2019-06-20 15:36:26 - UP : utility
+2019-06-20 15:36:26 - MENU RESPONSES : utility -> 
+2019-06-20 15:36:26 - DOWN : pinReset
+2019-06-20 15:36:26 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:72:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+5. KIS
+6. URA
+0. Home";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"KISOPTIONS";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:3:"URA";}i:6;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 15:36:31 - MENU : umemePostpaid
+2019-06-20 15:36:31 - MENU INPUT : 155518618825
+2019-06-20 15:36:31 - UP : umemePostpaid
+2019-06-20 15:36:31 - MENU RESPONSES : umemePostpaid -> 
+2019-06-20 15:36:31 - DOWN : pinReset
+2019-06-20 15:36:31 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:13:"umemePostpaid";s:8:"response";s:32:"Enter your Umeme account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:21:"umemePostpaidValidate";}}s:4:"type";s:4:"form";s:4:"name";s:12:"umemeAccount";s:6:"action";s:3:"con";}
+2019-06-20 15:36:31 - ERROR : umemePostpaidValidate
+2019-06-20 15:36:31 - MMMMMMM : umemePostpaidValidate
+2019-06-20 15:36:31 - UMEME POSTPAID VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001002:ACCOUNTID:155518618825:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:10afdd35-b119-7b9e-2cf5-334b9a4369f1:TRXSOURCE:USSD:
+2019-06-20 15:36:37 - UMEME POSTPAID VALIDATE RESPONSE : 
+STATUS:091:MESSAGE:GENERAL ERROR AT UMEMEERROR
+2019-06-20 15:36:46 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:c84a87d5-bc7c-94cb-1d02-7e684a123db4:
+2019-06-20 15:36:46 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 15:36:46 - GET CUSTOMER000
+2019-06-20 15:36:46 - GET CUSTOMER TIME : 2.6051044464111E-8
+2019-06-20 15:36:51 - MENU : menu
+2019-06-20 15:36:51 - MENU INPUT : 1234
+2019-06-20 15:36:51 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:b586571f-06bc-8661-53a2-f13bc33b5926:
+2019-06-20 15:36:51 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 15:36:51 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 15:37:01 - MENU : home
+2019-06-20 15:37:01 - MENU INPUT : 6
+2019-06-20 15:37:01 - UP : home
+2019-06-20 15:37:01 - MENU RESPONSES : home -> 
+2019-06-20 15:37:01 - DOWN : pinReset
+2019-06-20 15:37:01 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 15:37:09 - MENU : utility
+2019-06-20 15:37:09 - MENU INPUT : 3
+2019-06-20 15:37:09 - UP : utility
+2019-06-20 15:37:09 - MENU RESPONSES : utility -> 
+2019-06-20 15:37:09 - DOWN : pinReset
+2019-06-20 15:37:09 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:72:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+5. KIS
+6. URA
+0. Home";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"KISOPTIONS";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:3:"URA";}i:6;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 15:37:13 - MENU : umemeYaka
+2019-06-20 15:37:13 - MENU INPUT : shdudhhdjd
+2019-06-20 15:37:13 - UP : umemeYaka
+2019-06-20 15:37:13 - MENU RESPONSES : umemeYaka -> 
+2019-06-20 15:37:13 - DOWN : pinReset
+2019-06-20 15:37:13 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:9:"umemeYaka";s:8:"response";s:32:"Enter your Umeme account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"umemeYakaValidate";}}s:4:"type";s:4:"form";s:4:"name";s:12:"umemeAccount";s:6:"action";s:3:"con";}
+2019-06-20 15:37:13 - ERROR : umemeYakaValidate
+2019-06-20 15:37:13 - MMMMMMM : umemeYakaValidate
+2019-06-20 15:37:13 - UMEME YAKA VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001012:ACCOUNTID:shdudhhdjd:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:c57babf3-8d50-8c66-2b3c-ceef59263aea:TRXSOURCE:USSD:
+2019-06-20 15:37:49 - UMEME YAKA VALIDATE RESPONSE : 
+STATUS:091:MESSAGE:UNABLE TO AUTHENTICATE ASSIGNED OPERATOR USERNAME AND PASSWORD
+2019-06-20 16:31:58 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:5b23a11b-4737-4093-3ca5-bb6bce93e444:
+2019-06-20 16:31:58 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 16:31:58 - GET CUSTOMER000
+2019-06-20 16:31:58 - GET CUSTOMER TIME : 2.4930953979492E-8
+2019-06-20 16:32:03 - MENU : menu
+2019-06-20 16:32:03 - MENU INPUT : 1234
+2019-06-20 16:32:03 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:8061ed65-7940-6221-3447-397b78eeb5d5:
+2019-06-20 16:32:03 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 16:32:03 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 16:32:08 - MENU : home
+2019-06-20 16:32:08 - MENU INPUT : 6
+2019-06-20 16:32:08 - UP : home
+2019-06-20 16:32:08 - MENU RESPONSES : home -> 
+2019-06-20 16:32:08 - DOWN : pinReset
+2019-06-20 16:32:08 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 16:32:12 - MENU : utility
+2019-06-20 16:32:12 - MENU INPUT : 1
+2019-06-20 16:32:12 - UP : utility
+2019-06-20 16:32:12 - MENU RESPONSES : utility -> 
+2019-06-20 16:32:12 - DOWN : pinReset
+2019-06-20 16:32:12 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:32:15 - MENU : formWaterArea
+2019-06-20 16:32:15 - MENU INPUT : 1
+2019-06-20 16:32:15 - UP : formWaterArea
+2019-06-20 16:32:15 - MENU RESPONSES : formWaterArea -> 
+2019-06-20 16:32:15 - DOWN : pinReset
+2019-06-20 16:32:15 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:13:"formWaterArea";s:8:"response";s:103:"Choose Area:
+1:Kampala
+2:Jinja
+3:Entebe
+4:Iganga
+5:Lugazi
+6:Mukono
+7:Kajjansi
+8:Kawuku
+9:Others
+0. Home";s:3:"map";a:9:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"NATWATERUG";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"NATWATERUG";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"NATWATERUG";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"NATWATERUG";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"NATWATERUG";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:10:"NATWATERUG";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:10:"NATWATERUG";}i:7;O:8:"stdClass":2:{s:3:"key";s:1:"8";s:4:"menu";s:10:"NATWATERUG";}i:8;O:8:"stdClass":2:{s:3:"key";s:1:"9";s:4:"menu";s:10:"NATWATERUG";}}s:4:"type";s:7:"dynamic";s:4:"name";s:4:"area";s:6:"action";s:3:"con";}
+2019-06-20 16:32:20 - MENU : NATWATERUG
+2019-06-20 16:32:20 - MENU INPUT : 11111
+2019-06-20 16:32:20 - UP : NATWATERUG
+2019-06-20 16:32:20 - MENU RESPONSES : NATWATERUG -> 
+2019-06-20 16:32:20 - DOWN : pinReset
+2019-06-20 16:32:20 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"NATWATERUG";s:8:"response";s:32:"Enter your water account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:13:"waterValidate";}}s:4:"type";s:4:"form";s:4:"name";s:2:"ac";s:6:"action";s:3:"con";}
+2019-06-20 16:32:20 - ERROR : waterValidate
+2019-06-20 16:32:20 - MMMMMMM : waterValidate
+2019-06-20 16:32:20 - WATER VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001003:INFOFIELD1:Kampala:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:ccd3a98a-95d6-1f70-793e-4a5af5a4dd58:TRXSOURCE:USSD:
+2019-06-20 16:32:29 - WATER VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Twesigye Moses|11000
+2019-06-20 16:32:35 - MENU : waterValidate
+2019-06-20 16:32:35 - MENU INPUT : 1
+2019-06-20 16:32:35 - UP : waterValidate
+2019-06-20 16:32:35 - MENU RESPONSES : waterValidate -> 
+2019-06-20 16:32:35 - DOWN : pinReset
+2019-06-20 16:32:35 - ERROR : waterValidate
+2019-06-20 16:32:35 - MMMMMMM : waterValidate
+2019-06-20 16:32:35 - WATER VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001003:INFOFIELD1:Kampala:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:b2f71dc3-45bb-20b5-82c9-1a0bdfdeee0f:TRXSOURCE:USSD:
+2019-06-20 16:32:36 - WATER VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Twesigye Moses|11000
+2019-06-20 16:32:36 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:13:"waterValidate";s:6:"action";s:3:"con";s:8:"response";s:59:"Name: Twesigye Moses, Current Balance:11000
+1.Accept
+2.Back";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:15:"WaterformAmount";}}s:4:"type";s:4:"form";}
+2019-06-20 16:32:43 - MENU : WaterformAmount
+2019-06-20 16:32:43 - MENU INPUT : 11000
+2019-06-20 16:32:43 - UP : WaterformAmount
+2019-06-20 16:32:43 - MENU RESPONSES : WaterformAmount -> 
+2019-06-20 16:32:43 - DOWN : pinReset
+2019-06-20 16:32:43 - DOWN MENU : O:8:"stdClass":7:{s:2:"id";s:15:"WaterformAmount";s:8:"response";s:13:"Enter amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:13:"WaterAccounts";}}s:4:"type";s:4:"form";s:4:"link";s:0:"";s:4:"name";s:15:"WaterformAmount";s:6:"action";s:3:"con";}
+2019-06-20 16:32:43 - ERROR : WaterAccounts
+2019-06-20 16:32:43 - MMMMMMM : WaterAccounts
+2019-06-20 16:32:48 - MENU : WaterAccounts
+2019-06-20 16:32:48 - MENU INPUT : 1
+2019-06-20 16:32:48 - UP : WaterAccounts
+2019-06-20 16:32:48 - MENU RESPONSES : WaterAccounts -> 
+2019-06-20 16:32:48 - DOWN : pinReset
+2019-06-20 16:32:48 - ERROR : WaterAccounts
+2019-06-20 16:32:48 - MMMMMMM : WaterAccounts
+2019-06-20 16:32:48 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:13:"WaterAccounts";s:6:"action";s:3:"con";s:8:"response";s:71:"Select Bank 
+1. 218210027132501
+2. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:12:"waterConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:32:48 - ERROR : waterConfirm
+2019-06-20 16:32:48 - MMMMMMM : waterConfirm
+2019-06-20 16:32:54 - MENU : waterConfirm
+2019-06-20 16:32:54 - MENU INPUT : 1
+2019-06-20 16:32:54 - UP : waterConfirm
+2019-06-20 16:32:54 - MENU RESPONSES : waterConfirm -> 
+2019-06-20 16:32:54 - DOWN : pinReset
+2019-06-20 16:32:54 - ERROR : waterConfirm
+2019-06-20 16:32:54 - MMMMMMM : waterConfirm
+2019-06-20 16:32:54 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:12:"waterConfirm";s:6:"action";s:3:"con";s:8:"response";s:93:"National Water
+Pay 11000 UGX to National Water account 11111
+ Reply with:
+1. Accept
+2. Cancel";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:15:"waterPinConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:32:54 - ERROR : waterPinConfirm
+2019-06-20 16:32:54 - MMMMMMM : waterPinConfirm
+2019-06-20 16:33:00 - MENU : waterPinConfirm
+2019-06-20 16:33:00 - MENU INPUT : 1234
+2019-06-20 16:33:00 - UP : waterPinConfirm
+2019-06-20 16:33:00 - MENU RESPONSES : waterPinConfirm -> 
+2019-06-20 16:33:00 - DOWN : pinReset
+2019-06-20 16:33:00 - ERROR : waterPinConfirm
+2019-06-20 16:33:00 - MMMMMMM : waterPinConfirm
+2019-06-20 16:33:00 - NATWATER REQUEST : FORMID:M-:MERCHANTID:007001003:INFOFIELD1:Kampala:BANKACCOUNTID:218210027132501:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:AMOUNT:11000:TMPIN:1234:ACTION:PAYBILL:QUICKPAY:NO:UNIQUEID:92ef1190-e01f-6313-26ec-63fe635a9319:TRXSOURCE:USSD:
+2019-06-20 16:33:06 - NATWATER RESPONSE : 
+
+2019-06-20 16:33:06 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"waterPinConfirm";s:6:"action";s:3:"end";s:8:"response";s:88:"There was a problem processing your request. Please try again later:
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:15:"waterPinConfirm";}}s:4:"type";s:6:"static";}
+2019-06-20 16:40:04 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:6e87ac25-ad17-dbc9-87db-8551773003ce:
+2019-06-20 16:40:04 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 16:40:04 - GET CUSTOMER000
+2019-06-20 16:40:04 - GET CUSTOMER TIME : 2.9036045074463E-8
+2019-06-20 16:40:13 - MENU : menu
+2019-06-20 16:40:13 - MENU INPUT : 1234
+2019-06-20 16:40:13 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:e2e3770e-46d2-ff6a-1a14-a260c32ad5c9:
+2019-06-20 16:40:13 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 16:40:13 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 16:40:20 - MENU : home
+2019-06-20 16:40:20 - MENU INPUT : 6
+2019-06-20 16:40:20 - UP : home
+2019-06-20 16:40:20 - MENU RESPONSES : home -> 
+2019-06-20 16:40:20 - DOWN : pinReset
+2019-06-20 16:40:20 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 16:40:28 - MENU : utility
+2019-06-20 16:40:28 - MENU INPUT : 2
+2019-06-20 16:40:28 - UP : utility
+2019-06-20 16:40:28 - MENU RESPONSES : utility -> 
+2019-06-20 16:40:28 - DOWN : pinReset
+2019-06-20 16:40:28 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:40:33 - MENU : umemePostpaid
+2019-06-20 16:40:33 - MENU INPUT : 11111
+2019-06-20 16:40:33 - UP : umemePostpaid
+2019-06-20 16:40:33 - MENU RESPONSES : umemePostpaid -> 
+2019-06-20 16:40:33 - DOWN : pinReset
+2019-06-20 16:40:33 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:13:"umemePostpaid";s:8:"response";s:32:"Enter your Umeme account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:21:"umemePostpaidValidate";}}s:4:"type";s:4:"form";s:4:"name";s:12:"umemeAccount";s:6:"action";s:3:"con";}
+2019-06-20 16:40:33 - ERROR : umemePostpaidValidate
+2019-06-20 16:40:33 - MMMMMMM : umemePostpaidValidate
+2019-06-20 16:40:33 - UMEME POSTPAID VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001002:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:8417c7db-4087-5bae-5419-56e59c5c2fc2:TRXSOURCE:USSD:
+2019-06-20 16:40:33 - UMEME POSTPAID VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:James Outstanding Balance 5000
+2019-06-20 16:40:38 - MENU : umemePostpaidValidate
+2019-06-20 16:40:38 - MENU INPUT : 1
+2019-06-20 16:40:38 - UP : umemePostpaidValidate
+2019-06-20 16:40:38 - MENU RESPONSES : umemePostpaidValidate -> 
+2019-06-20 16:40:38 - DOWN : pinReset
+2019-06-20 16:40:38 - ERROR : umemePostpaidValidate
+2019-06-20 16:40:38 - MMMMMMM : umemePostpaidValidate
+2019-06-20 16:40:38 - UMEME POSTPAID VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001002:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:029b3d57-2ae6-a9e2-6403-fddc4af0a8da:TRXSOURCE:USSD:
+2019-06-20 16:40:38 - UMEME POSTPAID VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:James Outstanding Balance 5000
+2019-06-20 16:40:38 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:21:"umemePostpaidValidate";s:6:"action";s:3:"con";s:8:"response";s:46:"James Outstanding Balance 5000
+1.Accept
+2.Back";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:19:"umemePostpaidAmount";}}s:4:"type";s:4:"form";}
+2019-06-20 16:40:42 - MENU : umemePostpaidAmount
+2019-06-20 16:40:42 - MENU INPUT : 5000
+2019-06-20 16:40:42 - UP : umemePostpaidAmount
+2019-06-20 16:40:42 - MENU RESPONSES : umemePostpaidAmount -> 
+2019-06-20 16:40:42 - DOWN : pinReset
+2019-06-20 16:40:42 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:19:"umemePostpaidAmount";s:8:"response";s:13:"Enter amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:21:"UmemePostpaidAccounts";}}s:4:"type";s:4:"form";s:4:"name";s:10:"formAmount";s:6:"action";s:3:"con";}
+2019-06-20 16:40:42 - ERROR : UmemePostpaidAccounts
+2019-06-20 16:40:42 - MMMMMMM : UmemePostpaidAccounts
+2019-06-20 16:40:45 - MENU : UmemePostpaidAccounts
+2019-06-20 16:40:45 - MENU INPUT : 1
+2019-06-20 16:40:45 - UP : UmemePostpaidAccounts
+2019-06-20 16:40:45 - MENU RESPONSES : UmemePostpaidAccounts -> 
+2019-06-20 16:40:45 - DOWN : pinReset
+2019-06-20 16:40:45 - ERROR : UmemePostpaidAccounts
+2019-06-20 16:40:45 - MMMMMMM : UmemePostpaidAccounts
+2019-06-20 16:40:45 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:21:"UmemePostpaidAccounts";s:6:"action";s:3:"con";s:8:"response";s:83:"Select Bank 
+1. Pride/218210027132501
+2. Pride/223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:20:"umemePostpaidConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:40:45 - ERROR : umemePostpaidConfirm
+2019-06-20 16:40:45 - MMMMMMM : umemePostpaidConfirm
+2019-06-20 16:40:51 - MENU : umemePostpaidConfirm
+2019-06-20 16:40:51 - MENU INPUT : 1
+2019-06-20 16:40:51 - UP : umemePostpaidConfirm
+2019-06-20 16:40:51 - MENU RESPONSES : umemePostpaidConfirm -> 
+2019-06-20 16:40:51 - DOWN : pinReset
+2019-06-20 16:40:51 - ERROR : umemePostpaidConfirm
+2019-06-20 16:40:51 - MMMMMMM : umemePostpaidConfirm
+2019-06-20 16:40:51 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:20:"umemePostpaidConfirm";s:6:"action";s:3:"con";s:8:"response";s:77:"Umeme Postpaid
+Pay 5000 UGX to account 11111
+ Reply with:
+1. Accept
+2. Cancel";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:23:"umemePostpaidPinConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:40:51 - ERROR : umemePostpaidPinConfirm
+2019-06-20 16:40:51 - MMMMMMM : umemePostpaidPinConfirm
+2019-06-20 16:40:56 - MENU : umemePostpaidPinConfirm
+2019-06-20 16:40:56 - MENU INPUT : 1234
+2019-06-20 16:40:56 - UP : umemePostpaidPinConfirm
+2019-06-20 16:40:56 - MENU RESPONSES : umemePostpaidPinConfirm -> 
+2019-06-20 16:40:56 - DOWN : pinReset
+2019-06-20 16:40:56 - ERROR : umemePostpaidPinConfirm
+2019-06-20 16:40:56 - MMMMMMM : umemePostpaidPinConfirm
+2019-06-20 16:40:56 - UMEME POSTPAID REQUEST : FORMID:M-:MERCHANTID:007001002:BANKACCOUNTID:218210027132501:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:AMOUNT:5000:TMPIN:1234:ACTION:PAYBILL:QUICKPAY:NO:UNIQUEID:89130cc6-c816-d7d8-13eb-64c2389665e0:TRXSOURCE:USSD:
+2019-06-20 16:41:01 - UMEME POSTPAID RESPONSE : 
+
+2019-06-20 16:41:01 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:23:"umemePostpaidPinConfirm";s:6:"action";s:3:"end";s:8:"response";s:88:"There was a problem processing your request. Please try again later:
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:23:"umemePostpaidPinConfirm";}}s:4:"type";s:6:"static";}
+2019-06-20 16:41:37 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:043b4397-ba80-5b24-93bf-f54fce1890ee:
+2019-06-20 16:41:37 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 16:41:37 - GET CUSTOMER000
+2019-06-20 16:41:37 - GET CUSTOMER TIME : 2.3339986801147E-8
+2019-06-20 16:41:42 - MENU : menu
+2019-06-20 16:41:42 - MENU INPUT : 1234
+2019-06-20 16:41:42 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:6d43582f-b7e3-a9a4-d433-693071617546:
+2019-06-20 16:41:42 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 16:41:42 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 16:41:46 - MENU : home
+2019-06-20 16:41:46 - MENU INPUT : 6
+2019-06-20 16:41:46 - UP : home
+2019-06-20 16:41:46 - MENU RESPONSES : home -> 
+2019-06-20 16:41:46 - DOWN : pinReset
+2019-06-20 16:41:46 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 16:42:04 - MENU : utility
+2019-06-20 16:42:04 - MENU INPUT : 3
+2019-06-20 16:42:04 - UP : utility
+2019-06-20 16:42:04 - MENU RESPONSES : utility -> 
+2019-06-20 16:42:04 - DOWN : pinReset
+2019-06-20 16:42:04 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:42:21 - MENU : umemeYaka
+2019-06-20 16:42:21 - MENU INPUT : 11111
+2019-06-20 16:42:21 - UP : umemeYaka
+2019-06-20 16:42:21 - MENU RESPONSES : umemeYaka -> 
+2019-06-20 16:42:21 - DOWN : pinReset
+2019-06-20 16:42:21 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:9:"umemeYaka";s:8:"response";s:32:"Enter your Umeme account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"umemeYakaValidate";}}s:4:"type";s:4:"form";s:4:"name";s:12:"umemeAccount";s:6:"action";s:3:"con";}
+2019-06-20 16:42:21 - ERROR : umemeYakaValidate
+2019-06-20 16:42:21 - MMMMMMM : umemeYakaValidate
+2019-06-20 16:42:21 - UMEME YAKA VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001012:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:daa3bd97-2f82-0507-6aba-b4fc559029dc:TRXSOURCE:USSD:
+2019-06-20 16:42:22 - UMEME YAKA VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:James Outstanding Balance 5000
+2019-06-20 16:42:26 - MENU : umemeYakaValidate
+2019-06-20 16:42:26 - MENU INPUT : 1
+2019-06-20 16:42:26 - UP : umemeYakaValidate
+2019-06-20 16:42:26 - MENU RESPONSES : umemeYakaValidate -> 
+2019-06-20 16:42:26 - DOWN : pinReset
+2019-06-20 16:42:26 - ERROR : umemeYakaValidate
+2019-06-20 16:42:26 - MMMMMMM : umemeYakaValidate
+2019-06-20 16:42:26 - UMEME YAKA VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001012:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:87c51e41-3b13-8330-7e79-97f143b30722:TRXSOURCE:USSD:
+2019-06-20 16:42:27 - UMEME YAKA VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:James Outstanding Balance 5000
+2019-06-20 16:42:27 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:17:"umemeYakaValidate";s:6:"action";s:3:"con";s:8:"response";s:46:"James Outstanding Balance 5000
+1.Accept
+2.Back";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:15:"umemeYakaAmount";}}s:4:"type";s:4:"form";}
+2019-06-20 16:42:34 - MENU : umemeYakaAmount
+2019-06-20 16:42:34 - MENU INPUT : 5000
+2019-06-20 16:42:34 - UP : umemeYakaAmount
+2019-06-20 16:42:34 - MENU RESPONSES : umemeYakaAmount -> 
+2019-06-20 16:42:34 - DOWN : pinReset
+2019-06-20 16:42:34 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:15:"umemeYakaAmount";s:8:"response";s:13:"Enter amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"UmemeYakaAccounts";}}s:4:"type";s:4:"form";s:4:"name";s:10:"formAmount";s:6:"action";s:3:"con";}
+2019-06-20 16:42:34 - ERROR : UmemeYakaAccounts
+2019-06-20 16:42:34 - MMMMMMM : UmemeYakaAccounts
+2019-06-20 16:42:38 - MENU : UmemeYakaAccounts
+2019-06-20 16:42:38 - MENU INPUT : 1
+2019-06-20 16:42:38 - UP : UmemeYakaAccounts
+2019-06-20 16:42:38 - MENU RESPONSES : UmemeYakaAccounts -> 
+2019-06-20 16:42:38 - DOWN : pinReset
+2019-06-20 16:42:38 - ERROR : UmemeYakaAccounts
+2019-06-20 16:42:38 - MMMMMMM : UmemeYakaAccounts
+2019-06-20 16:42:38 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:17:"UmemeYakaAccounts";s:6:"action";s:3:"con";s:8:"response";s:83:"Select Bank 
+1. Pride/218210027132501
+2. Pride/223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:16:"umemeYakaConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:42:38 - ERROR : umemeYakaConfirm
+2019-06-20 16:42:38 - MMMMMMM : umemeYakaConfirm
+2019-06-20 16:42:42 - MENU : umemeYakaConfirm
+2019-06-20 16:42:42 - MENU INPUT : 1
+2019-06-20 16:42:42 - UP : umemeYakaConfirm
+2019-06-20 16:42:42 - MENU RESPONSES : umemeYakaConfirm -> 
+2019-06-20 16:42:42 - DOWN : pinReset
+2019-06-20 16:42:42 - ERROR : umemeYakaConfirm
+2019-06-20 16:42:42 - MMMMMMM : umemeYakaConfirm
+2019-06-20 16:42:42 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:16:"umemeYakaConfirm";s:6:"action";s:3:"con";s:8:"response";s:77:"Umeme Postpaid
+Pay 5000 UGX to account 11111
+ Reply with:
+1. Accept
+2. Cancel";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:19:"umemeYakaPinConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:42:42 - ERROR : umemeYakaPinConfirm
+2019-06-20 16:42:42 - MMMMMMM : umemeYakaPinConfirm
+2019-06-20 16:42:48 - MENU : umemeYakaPinConfirm
+2019-06-20 16:42:48 - MENU INPUT : 1234
+2019-06-20 16:42:48 - UP : umemeYakaPinConfirm
+2019-06-20 16:42:48 - MENU RESPONSES : umemeYakaPinConfirm -> 
+2019-06-20 16:42:48 - DOWN : pinReset
+2019-06-20 16:42:48 - ERROR : umemeYakaPinConfirm
+2019-06-20 16:42:48 - MMMMMMM : umemeYakaPinConfirm
+2019-06-20 16:42:48 - UMEME YAKA REQUEST : FORMID:M-:MERCHANTID:007001012:BANKACCOUNTID:218210027132501:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:AMOUNT:5000:TMPIN:1234:ACTION:PAYBILL:QUICKPAY:NO:UNIQUEID:741d38ab-10be-9f44-df5f-e62d4f6ccd32:TRXSOURCE:USSD:
+2019-06-20 16:42:52 - UMEME YAKA RESPONSE : 
+
+2019-06-20 16:42:52 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:19:"umemeYakaPinConfirm";s:6:"action";s:3:"end";s:8:"response";s:88:"There was a problem processing your request. Please try again later:
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:19:"umemeYakaPinConfirm";}}s:4:"type";s:6:"static";}
+2019-06-20 16:43:02 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:dec51032-9301-bf6a-3345-0ed7316a04ea:
+2019-06-20 16:43:02 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 16:43:02 - GET CUSTOMER000
+2019-06-20 16:43:02 - GET CUSTOMER TIME : 2.0190954208374E-8
+2019-06-20 16:43:24 - MENU : menu
+2019-06-20 16:43:24 - MENU INPUT : 1234
+2019-06-20 16:43:24 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:59414112-4866-4a3c-55a9-054a09d3e4b4:
+2019-06-20 16:43:24 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 16:43:24 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 16:43:30 - MENU : home
+2019-06-20 16:43:30 - MENU INPUT : 6
+2019-06-20 16:43:30 - UP : home
+2019-06-20 16:43:30 - MENU RESPONSES : home -> 
+2019-06-20 16:43:30 - DOWN : pinReset
+2019-06-20 16:43:30 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 16:43:37 - MENU : utility
+2019-06-20 16:43:37 - MENU INPUT : 4
+2019-06-20 16:43:37 - UP : utility
+2019-06-20 16:43:37 - MENU RESPONSES : utility -> 
+2019-06-20 16:43:37 - DOWN : pinReset
+2019-06-20 16:43:37 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:43:45 - MENU : paytv
+2019-06-20 16:43:45 - MENU INPUT : 1
+2019-06-20 16:43:45 - UP : paytv
+2019-06-20 16:43:45 - MENU RESPONSES : paytv -> 
+2019-06-20 16:43:45 - DOWN : pinReset
+2019-06-20 16:43:45 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:5:"paytv";s:8:"response";s:47:"1. DSTV
+2. GOTV
+3. DSTVPVR
+4. Startimes
+0. Home";s:3:"map";a:4:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:11:"dstvPackage";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:11:"gotvPackage";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:14:"dstvpvrPackage";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:9:"Startimes";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:43:48 - MENU : dstvPackage
+2019-06-20 16:43:48 - MENU INPUT : 1
+2019-06-20 16:43:48 - UP : dstvPackage
+2019-06-20 16:43:48 - MENU RESPONSES : dstvPackage -> 
+2019-06-20 16:43:48 - DOWN : pinReset
+2019-06-20 16:43:48 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:11:"dstvPackage";s:8:"response";s:138:"Choose Package:
+1. Premium 280,000 ugx
+2. CompactPlus 180,000 ugx
+3. Compact 115,000 ugx
+4. Family 60,000 ugx
+5. Access 33,000 ugx
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"dstvPeriod";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"dstvPeriod";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"dstvPeriod";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"dstvPeriod";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"dstvPeriod";}}s:4:"type";s:7:"dynamic";s:4:"name";s:11:"dstvPackage";s:6:"action";s:3:"con";}
+2019-06-20 16:43:54 - MENU : dstvPeriod
+2019-06-20 16:43:54 - MENU INPUT : 2
+2019-06-20 16:43:54 - UP : dstvPeriod
+2019-06-20 16:43:54 - MENU RESPONSES : dstvPeriod -> 
+2019-06-20 16:43:54 - DOWN : pinReset
+2019-06-20 16:43:54 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"dstvPeriod";s:8:"response";s:43:"Choose Period:
+1. Monthly
+2. Yearly
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:15:"dstvAccountType";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:7:"Monthly";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:6:"Yearly";}}s:4:"type";s:7:"dynamic";s:4:"name";s:10:"dstvPeriod";s:6:"action";s:3:"con";}
+2019-06-20 16:43:54 - ERROR : Monthly
+2019-06-20 16:43:54 - MMMMMMM : Monthly
+2019-06-20 16:44:06 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:92420a96-a00c-763e-8cde-c244381a21f8:
+2019-06-20 16:44:06 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-20 16:44:06 - GET CUSTOMER000
+2019-06-20 16:44:06 - GET CUSTOMER TIME : 4.0939092636108E-8
+2019-06-20 16:44:18 - MENU : menu
+2019-06-20 16:44:18 - MENU INPUT : 1234
+2019-06-20 16:44:18 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:9aadd35f-4a5e-28ae-d309-fb4abfd9f0c1:
+2019-06-20 16:44:18 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-20 16:44:18 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-20 16:44:22 - MENU : home
+2019-06-20 16:44:22 - MENU INPUT : 6
+2019-06-20 16:44:22 - UP : home
+2019-06-20 16:44:22 - MENU RESPONSES : home -> 
+2019-06-20 16:44:22 - DOWN : pinReset
+2019-06-20 16:44:22 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-20 16:44:28 - MENU : utility
+2019-06-20 16:44:28 - MENU INPUT : 4
+2019-06-20 16:44:28 - UP : utility
+2019-06-20 16:44:28 - MENU RESPONSES : utility -> 
+2019-06-20 16:44:28 - DOWN : pinReset
+2019-06-20 16:44:28 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:7:"utility";s:8:"response";s:58:"1. Water
+2. Umeme Postpaid
+3. Umeme Yaka
+4. Pay TV
+0. Home";s:3:"map";a:5:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:13:"formWaterArea";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:13:"umemePostpaid";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:9:"umemeYaka";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:5:"paytv";}i:4;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"utilityConfirm";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:44:32 - MENU : paytv
+2019-06-20 16:44:32 - MENU INPUT : 2
+2019-06-20 16:44:32 - UP : paytv
+2019-06-20 16:44:32 - MENU RESPONSES : paytv -> 
+2019-06-20 16:44:32 - DOWN : pinReset
+2019-06-20 16:44:32 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:5:"paytv";s:8:"response";s:47:"1. DSTV
+2. GOTV
+3. DSTVPVR
+4. Startimes
+0. Home";s:3:"map";a:4:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:11:"dstvPackage";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:11:"gotvPackage";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:14:"dstvpvrPackage";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:9:"Startimes";}}s:4:"type";s:7:"dynamic";s:4:"link";s:0:"";s:6:"action";s:3:"con";}
+2019-06-20 16:44:36 - MENU : gotvPackage
+2019-06-20 16:44:36 - MENU INPUT : 1
+2019-06-20 16:44:36 - UP : gotvPackage
+2019-06-20 16:44:36 - MENU RESPONSES : gotvPackage -> 
+2019-06-20 16:44:36 - DOWN : pinReset
+2019-06-20 16:44:36 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:11:"gotvPackage";s:8:"response";s:156:"Choose Package:
+1. GOtvPlus 28000 ugx
+2. GOtvValue 16000 ugx
+3. GOtvLite1 11000 ugx
+4. GOtvLite3 25000 ugx
+5. GOtvLite12 70000 ugx 
+6. GotvMax 39000
+0. Back";s:3:"map";a:6:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:10:"dstvPeriod";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:10:"dstvPeriod";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"dstvPeriod";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:10:"dstvPeriod";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:10:"dstvPeriod";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:10:"dstvPeriod";}}s:4:"type";s:7:"dynamic";s:4:"name";s:11:"dstvPackage";s:6:"action";s:3:"con";}
+2019-06-20 16:44:42 - MENU : dstvPeriod
+2019-06-20 16:44:42 - MENU INPUT : 1
+2019-06-20 16:44:42 - UP : dstvPeriod
+2019-06-20 16:44:42 - MENU RESPONSES : dstvPeriod -> 
+2019-06-20 16:44:42 - DOWN : pinReset
+2019-06-20 16:44:42 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:10:"dstvPeriod";s:8:"response";s:43:"Choose Period:
+1. Monthly
+2. Yearly
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:15:"dstvAccountType";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:7:"Monthly";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:6:"Yearly";}}s:4:"type";s:7:"dynamic";s:4:"name";s:10:"dstvPeriod";s:6:"action";s:3:"con";}
+2019-06-20 16:44:49 - MENU : dstvAccountType
+2019-06-20 16:44:49 - MENU INPUT : 1
+2019-06-20 16:44:49 - UP : dstvAccountType
+2019-06-20 16:44:49 - MENU RESPONSES : dstvAccountType -> 
+2019-06-20 16:44:49 - DOWN : pinReset
+2019-06-20 16:44:49 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:15:"dstvAccountType";s:8:"response";s:70:"Select the account number type:
+1. CustomerNumber
+2. SmartCard
+0. Back";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:6:"dstvUG";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"CustomerNumber";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:9:"SmartCard";}}s:4:"type";s:7:"dynamic";s:4:"name";s:15:"dstvAccountType";s:6:"action";s:3:"con";}
+2019-06-20 16:44:54 - MENU : dstvUG
+2019-06-20 16:44:54 - MENU INPUT : 11111
+2019-06-20 16:44:54 - UP : dstvUG
+2019-06-20 16:44:54 - MENU RESPONSES : dstvUG -> 
+2019-06-20 16:44:54 - DOWN : pinReset
+2019-06-20 16:44:54 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:6:"dstvUG";s:8:"response";s:52:"Enter your smart card number or DSTV account number:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:12:"dstvValidate";}}s:4:"type";s:4:"form";s:4:"name";s:11:"dstvAccount";s:6:"action";s:3:"con";}
+2019-06-20 16:44:54 - ERROR : dstvValidate
+2019-06-20 16:44:54 - MMMMMMM : dstvValidate
+2019-06-20 16:44:54 - DSTV VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001001:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:400f2c10-e113-c164-6c74-3510dca057f1:TRXSOURCE:USSD:
+2019-06-20 16:44:54 - DSTV VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Chris Mwangi|26000 UGX|19-Apr-2018
+2019-06-20 16:45:00 - MENU : dstvValidate
+2019-06-20 16:45:00 - MENU INPUT : 1
+2019-06-20 16:45:00 - UP : dstvValidate
+2019-06-20 16:45:00 - MENU RESPONSES : dstvValidate -> 
+2019-06-20 16:45:00 - DOWN : pinReset
+2019-06-20 16:45:00 - ERROR : dstvValidate
+2019-06-20 16:45:00 - MMMMMMM : dstvValidate
+2019-06-20 16:45:00 - DSTV VALIDATE REQUEST : FORMID:M-:MERCHANTID:007001001:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:9f7cbbb9-bdcf-b51e-67f3-ccc22c7f9d23:TRXSOURCE:USSD:
+2019-06-20 16:45:00 - DSTV VALIDATE RESPONSE : 
+STATUS:000:MESSAGE:Chris Mwangi|26000 UGX|19-Apr-2018
+2019-06-20 16:45:00 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:12:"dstvValidate";s:6:"action";s:3:"con";s:8:"response";s:50:"Chris Mwangi 26000 UGX 19-Apr-2018
+1.Accept
+2.Back";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:10:"TVAccounts";}}s:4:"type";s:4:"form";}
+2019-06-20 16:45:00 - ERROR : TVAccounts
+2019-06-20 16:45:00 - MMMMMMM : TVAccounts
+2019-06-20 16:45:04 - MENU : TVAccounts
+2019-06-20 16:45:04 - MENU INPUT : 1
+2019-06-20 16:45:04 - UP : TVAccounts
+2019-06-20 16:45:04 - MENU RESPONSES : TVAccounts -> 
+2019-06-20 16:45:04 - DOWN : pinReset
+2019-06-20 16:45:04 - ERROR : TVAccounts
+2019-06-20 16:45:04 - MMMMMMM : TVAccounts
+2019-06-20 16:45:04 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"TVAccounts";s:6:"action";s:3:"con";s:8:"response";s:71:"Select Bank 
+1. 218210027132501
+2. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:11:"dstvConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:45:04 - ERROR : dstvConfirm
+2019-06-20 16:45:04 - MMMMMMM : dstvConfirm
+2019-06-20 16:45:09 - MENU : dstvConfirm
+2019-06-20 16:45:09 - MENU INPUT : 1
+2019-06-20 16:45:09 - UP : dstvConfirm
+2019-06-20 16:45:09 - MENU RESPONSES : dstvConfirm -> 
+2019-06-20 16:45:09 - DOWN : pinReset
+2019-06-20 16:45:09 - ERROR : dstvConfirm
+2019-06-20 16:45:09 - MMMMMMM : dstvConfirm
+2019-06-20 16:45:09 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:11:"dstvConfirm";s:6:"action";s:3:"con";s:8:"response";s:74:"DSTV
+Pay 280000 UGX to DSTV account 11111
+ Reply with:
+1. Accept
+2. Cancel";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"dstvPinConfirm";}}s:4:"type";s:4:"form";}
+2019-06-20 16:45:09 - ERROR : dstvPinConfirm
+2019-06-20 16:45:09 - MMMMMMM : dstvPinConfirm
+2019-06-20 16:45:13 - MENU : dstvPinConfirm
+2019-06-20 16:45:13 - MENU INPUT : 1234
+2019-06-20 16:45:13 - UP : dstvPinConfirm
+2019-06-20 16:45:13 - MENU RESPONSES : dstvPinConfirm -> 
+2019-06-20 16:45:13 - DOWN : pinReset
+2019-06-20 16:45:13 - ERROR : dstvPinConfirm
+2019-06-20 16:45:13 - MMMMMMM : dstvPinConfirm
+2019-06-20 16:45:13 - DSTV REQUEST : FORMID:M-:MERCHANTID:007001001:BANKACCOUNTID:218210027132501:ACCOUNTID:11111:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:AMOUNT:280000:TMPIN:1234:ACTION:PAYBILL:QUICKPAY:NO:UNIQUEID:95f221dd-0bbf-be03-0060-f5563f94288b:TRXSOURCE:USSD:
+2019-06-20 16:45:17 - DSTV RESPONSE : 
+
+2019-06-20 16:45:17 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"dstvPinConfirm";s:6:"action";s:3:"end";s:8:"response";s:88:"There was a problem processing your request. Please try again later:
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"dstvPinConfirm";}}s:4:"type";s:6:"static";}

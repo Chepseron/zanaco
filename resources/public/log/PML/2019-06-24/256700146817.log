@@ -1,0 +1,474 @@
+2019-06-24 09:09:49 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:613be00f-561a-fa7b-bda0-b44f7030b390:
+2019-06-24 09:09:49 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 09:09:49 - GET CUSTOMER000
+2019-06-24 09:09:49 - GET CUSTOMER TIME : 6.9377899169922E-7
+2019-06-24 09:09:56 - MENU : menu
+2019-06-24 09:09:56 - MENU INPUT : 1234
+2019-06-24 09:09:56 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:a6b41bf8-a8d8-05c5-b612-7d1005dd3868:
+2019-06-24 09:09:56 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 09:09:56 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 09:10:04 - MENU : home
+2019-06-24 09:10:04 - MENU INPUT : 1
+2019-06-24 09:10:04 - UP : home
+2019-06-24 09:10:04 - MENU RESPONSES : home -> 
+2019-06-24 09:10:04 - DOWN : pinReset
+2019-06-24 09:10:04 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 09:10:04 - ERROR : BalanceAccounts
+2019-06-24 09:10:04 - MMMMMMM : BalanceAccounts
+2019-06-24 09:10:06 - MENU : BalanceAccounts
+2019-06-24 09:10:06 - MENU INPUT : 1
+2019-06-24 09:10:06 - UP : BalanceAccounts
+2019-06-24 09:10:06 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-24 09:10:06 - DOWN : pinReset
+2019-06-24 09:10:06 - ERROR : BalanceAccounts
+2019-06-24 09:10:06 - MMMMMMM : BalanceAccounts
+2019-06-24 09:10:06 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-24 09:10:06 - ERROR : AccountBalance
+2019-06-24 09:10:06 - MMMMMMM : AccountBalance
+2019-06-24 09:10:06 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:807ac874-8e84-0bf8-1f63-99813d82cb50:
+2019-06-24 09:10:11 - BALANCE RESPONSE : 
+STATUS:091:DATA:Error Connecting to your account. Error 091-Your Bank is not available. Please try again. Please try later or contact our help desk at  shown
+2019-06-24 09:10:22 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:4d88276e-0110-8bc5-1b07-7f8fde954fc9:
+2019-06-24 09:10:22 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 09:10:22 - GET CUSTOMER000
+2019-06-24 09:10:22 - GET CUSTOMER TIME : 6.1141014099121E-8
+2019-06-24 09:10:26 - MENU : menu
+2019-06-24 09:10:26 - MENU INPUT : 1234
+2019-06-24 09:10:26 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:b051b455-1b41-cac6-8b6f-f3ef05de20e8:
+2019-06-24 09:10:27 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 09:10:27 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 09:10:31 - MENU : home
+2019-06-24 09:10:31 - MENU INPUT : 1
+2019-06-24 09:10:31 - UP : home
+2019-06-24 09:10:31 - MENU RESPONSES : home -> 
+2019-06-24 09:10:31 - DOWN : pinReset
+2019-06-24 09:10:31 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 09:10:31 - ERROR : BalanceAccounts
+2019-06-24 09:10:31 - MMMMMMM : BalanceAccounts
+2019-06-24 09:10:33 - MENU : BalanceAccounts
+2019-06-24 09:10:33 - MENU INPUT : 1
+2019-06-24 09:10:33 - UP : BalanceAccounts
+2019-06-24 09:10:33 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-24 09:10:33 - DOWN : pinReset
+2019-06-24 09:10:33 - ERROR : BalanceAccounts
+2019-06-24 09:10:33 - MMMMMMM : BalanceAccounts
+2019-06-24 09:10:33 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-24 09:10:33 - ERROR : AccountBalance
+2019-06-24 09:10:33 - MMMMMMM : AccountBalance
+2019-06-24 09:10:33 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:0311902a-b748-fd3a-3212-e69e10200aaa:
+2019-06-24 09:10:33 - BALANCE RESPONSE : 
+STATUS:091:MESSAGE:Duplicate Transaction shown
+2019-06-24 09:21:22 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:310354b5-ce76-a09d-752b-4f976dd57db4:
+2019-06-24 09:21:22 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 09:21:22 - GET CUSTOMER000
+2019-06-24 09:21:22 - GET CUSTOMER TIME : 3.7545204162598E-8
+2019-06-24 09:21:28 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:c28601a6-48a7-6142-ed40-acf4ff611593:
+2019-06-24 09:21:28 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 09:21:28 - GET CUSTOMER000
+2019-06-24 09:21:28 - GET CUSTOMER TIME : 3.3110857009888E-8
+2019-06-24 09:21:33 - MENU : menu
+2019-06-24 09:21:33 - MENU INPUT : 1234
+2019-06-24 09:21:33 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:3ee4bce9-467a-5ced-3430-cfeb7cd7680f:
+2019-06-24 09:21:33 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 09:21:33 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 09:21:39 - MENU : home
+2019-06-24 09:21:39 - MENU INPUT : 1
+2019-06-24 09:21:39 - UP : home
+2019-06-24 09:21:39 - MENU RESPONSES : home -> 
+2019-06-24 09:21:39 - DOWN : pinReset
+2019-06-24 09:21:39 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 09:21:39 - ERROR : BalanceAccounts
+2019-06-24 09:21:39 - MMMMMMM : BalanceAccounts
+2019-06-24 09:21:41 - MENU : BalanceAccounts
+2019-06-24 09:21:41 - MENU INPUT : 1
+2019-06-24 09:21:41 - UP : BalanceAccounts
+2019-06-24 09:21:41 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-24 09:21:41 - DOWN : pinReset
+2019-06-24 09:21:41 - ERROR : BalanceAccounts
+2019-06-24 09:21:41 - MMMMMMM : BalanceAccounts
+2019-06-24 09:21:41 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-24 09:21:41 - ERROR : AccountBalance
+2019-06-24 09:21:41 - MMMMMMM : AccountBalance
+2019-06-24 09:21:41 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:ba043504-8878-1c94-adea-423328b8b6a4:
+2019-06-24 09:21:42 - BALANCE RESPONSE : 
+STATUS:091:DATA:Error Connecting to your account. Error 091-Your Bank is not available. Please try again. Please try later or contact our help desk at  shown
+2019-06-24 09:51:28 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:f0e7e522-2add-ef93-113e-57f93415e369:
+2019-06-24 09:51:28 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 09:51:28 - GET CUSTOMER000
+2019-06-24 09:51:28 - GET CUSTOMER TIME : 1.6263008117676E-7
+2019-06-24 09:51:34 - MENU : menu
+2019-06-24 09:51:34 - MENU INPUT : 1234
+2019-06-24 09:51:34 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:f80ed5f6-274e-4d3e-e04f-bebae9471594:
+2019-06-24 09:51:34 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 09:51:34 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 09:51:38 - MENU : home
+2019-06-24 09:51:38 - MENU INPUT : 1
+2019-06-24 09:51:38 - UP : home
+2019-06-24 09:51:38 - MENU RESPONSES : home -> 
+2019-06-24 09:51:38 - DOWN : pinReset
+2019-06-24 09:51:38 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 09:51:38 - ERROR : BalanceAccounts
+2019-06-24 09:51:38 - MMMMMMM : BalanceAccounts
+2019-06-24 09:51:39 - MENU : BalanceAccounts
+2019-06-24 09:51:39 - MENU INPUT : 1
+2019-06-24 09:51:39 - UP : BalanceAccounts
+2019-06-24 09:51:39 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-24 09:51:39 - DOWN : pinReset
+2019-06-24 09:51:39 - ERROR : BalanceAccounts
+2019-06-24 09:51:39 - MMMMMMM : BalanceAccounts
+2019-06-24 09:51:39 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-24 09:51:39 - ERROR : AccountBalance
+2019-06-24 09:51:39 - MMMMMMM : AccountBalance
+2019-06-24 09:51:39 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:448cfe9b-6223-5b79-a53a-dd1c726df478:
+2019-06-24 09:51:41 - BALANCE RESPONSE : 
+STATUS:091:DATA:Error Connecting to your account. Error 091-Your Bank is not available. Please try again. Please try later or contact our help desk at  shown
+2019-06-24 10:12:48 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:65b71383-2790-f6b3-1f63-364b1125a50a:
+2019-06-24 10:12:48 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 10:12:48 - GET CUSTOMER000
+2019-06-24 10:12:48 - GET CUSTOMER TIME : 1.3238096237183E-7
+2019-06-24 10:12:53 - MENU : menu
+2019-06-24 10:12:53 - MENU INPUT : 1234
+2019-06-24 10:12:53 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:849a0f9b-1146-cacb-0058-2b37d33f80d0:
+2019-06-24 10:12:54 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 10:12:54 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 10:12:59 - MENU : home
+2019-06-24 10:12:59 - MENU INPUT : 1
+2019-06-24 10:12:59 - UP : home
+2019-06-24 10:12:59 - MENU RESPONSES : home -> 
+2019-06-24 10:12:59 - DOWN : pinReset
+2019-06-24 10:12:59 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 10:12:59 - ERROR : BalanceAccounts
+2019-06-24 10:12:59 - MMMMMMM : BalanceAccounts
+2019-06-24 10:13:01 - MENU : BalanceAccounts
+2019-06-24 10:13:01 - MENU INPUT : 1
+2019-06-24 10:13:01 - UP : BalanceAccounts
+2019-06-24 10:13:01 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-24 10:13:01 - DOWN : pinReset
+2019-06-24 10:13:01 - ERROR : BalanceAccounts
+2019-06-24 10:13:01 - MMMMMMM : BalanceAccounts
+2019-06-24 10:13:01 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-24 10:13:01 - ERROR : AccountBalance
+2019-06-24 10:13:01 - MMMMMMM : AccountBalance
+2019-06-24 10:13:01 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:77408e71-cd97-6f82-8f93-c027555d940a:
+2019-06-24 10:13:02 - BALANCE RESPONSE : 
+STATUS:091:DATA:Error Connecting to your account. Error 091-Your Bank is not available. Please try again. Please try later or contact our help desk at  shown
+2019-06-24 12:03:48 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:babc25e3-4e38-0008-9818-897f9fea1b47:
+2019-06-24 12:03:48 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 12:03:48 - GET CUSTOMER000
+2019-06-24 12:03:48 - GET CUSTOMER TIME : 4.4482946395874E-8
+2019-06-24 12:03:53 - MENU : menu
+2019-06-24 12:03:53 - MENU INPUT : 1234
+2019-06-24 12:03:53 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:5b988a3c-1c71-a2b7-8062-c079bbda1825:
+2019-06-24 12:03:53 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 12:03:53 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 12:03:58 - MENU : home
+2019-06-24 12:03:58 - MENU INPUT : 1
+2019-06-24 12:03:58 - UP : home
+2019-06-24 12:03:58 - MENU RESPONSES : home -> 
+2019-06-24 12:03:58 - DOWN : pinReset
+2019-06-24 12:03:58 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 12:03:58 - ERROR : BalanceAccounts
+2019-06-24 12:03:58 - MMMMMMM : BalanceAccounts
+2019-06-24 12:04:00 - MENU : BalanceAccounts
+2019-06-24 12:04:00 - MENU INPUT : 1
+2019-06-24 12:04:00 - UP : BalanceAccounts
+2019-06-24 12:04:00 - MENU RESPONSES : BalanceAccounts -> 
+2019-06-24 12:04:00 - DOWN : pinReset
+2019-06-24 12:04:00 - ERROR : BalanceAccounts
+2019-06-24 12:04:00 - MMMMMMM : BalanceAccounts
+2019-06-24 12:04:00 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:15:"BalanceAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AccountBalance";}}s:4:"type";s:4:"form";}
+2019-06-24 12:04:00 - ERROR : AccountBalance
+2019-06-24 12:04:00 - MMMMMMM : AccountBalance
+2019-06-24 12:04:00 - BALANCE REQUEST : FORMID:B-:MERCHANTID:BALANCE:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:fdd1db1c-19c3-c8d9-e6e8-9e486c53809a:
+2019-06-24 12:04:01 - BALANCE RESPONSE : 
+STATUS:OK:DATA:BankPRIDEBalance;UGXActual;6,622,034.31 CRAvailable;6,622,034.31 CR shown
+2019-06-24 12:10:15 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:f8be82c5-564e-d853-e2b0-d830aeef0345:
+2019-06-24 12:10:15 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 12:10:15 - GET CUSTOMER000
+2019-06-24 12:10:15 - GET CUSTOMER TIME : 4.0337085723877E-8
+2019-06-24 12:10:20 - MENU : menu
+2019-06-24 12:10:20 - MENU INPUT : 1234
+2019-06-24 12:10:20 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:155f7c47-7bbb-2b9f-e0db-6b313becabed:
+2019-06-24 12:10:20 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 12:10:20 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 12:10:27 - MENU : home
+2019-06-24 12:10:27 - MENU INPUT : 2
+2019-06-24 12:10:27 - UP : home
+2019-06-24 12:10:27 - MENU RESPONSES : home -> 
+2019-06-24 12:10:27 - DOWN : pinReset
+2019-06-24 12:10:27 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 12:10:27 - ERROR : StatementAccounts
+2019-06-24 12:10:27 - MMMMMMM : StatementAccounts
+2019-06-24 12:10:32 - MENU : StatementAccounts
+2019-06-24 12:10:32 - MENU INPUT : 1
+2019-06-24 12:10:32 - UP : StatementAccounts
+2019-06-24 12:10:32 - MENU RESPONSES : StatementAccounts -> 
+2019-06-24 12:10:32 - DOWN : pinReset
+2019-06-24 12:10:32 - ERROR : StatementAccounts
+2019-06-24 12:10:32 - MMMMMMM : StatementAccounts
+2019-06-24 12:10:32 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:17:"StatementAccounts";s:6:"action";s:3:"con";s:8:"response";s:63:"Select Bank:
+1. Pride/218210027132501
+2. Pride/223206003324501
+";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:16:"AccountStatement";}}s:4:"type";s:4:"form";}
+2019-06-24 12:10:32 - ERROR : AccountStatement
+2019-06-24 12:10:32 - MMMMMMM : AccountStatement
+2019-06-24 12:10:32 - MINISTATEMENT REQUEST : FORMID:B-:MERCHANTID:STATEMENT:BANKACCOUNTID:218210027132501:SHORTCODE:250:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:COUNTRY:UGANDATEST:UNIQUEID:d8d5bd11-3e22-4586-c2fd-97521f2a4fe1:
+2019-06-24 12:10:33 - MINISTATEMENT RESPONSE : 
+STATUS:OK:DATA:22/06/19 CR. 100,000 19/06/19 CR. 170,000 19/06/19 CR. 70,000 12/06/19 CR. 50,000 11/06/19 CR. 70,000 
+2019-06-24 12:10:40 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:671ac7b7-f48f-724f-3ef4-f0bbd6ce72fc:
+2019-06-24 12:10:40 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 12:10:40 - GET CUSTOMER000
+2019-06-24 12:10:40 - GET CUSTOMER TIME : 2.2696018218994E-8
+2019-06-24 12:10:43 - MENU : menu
+2019-06-24 12:10:43 - MENU INPUT : 1234
+2019-06-24 12:10:43 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:4f1e6132-d545-d5f8-c85f-8258c27a0d7b:
+2019-06-24 12:10:43 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 12:10:43 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 12:20:56 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:f0c0fae0-5b04-7f8d-fb4d-67c637d0b7a5:
+2019-06-24 12:20:56 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 12:20:56 - GET CUSTOMER000
+2019-06-24 12:20:56 - GET CUSTOMER TIME : 3.507399559021E-8
+2019-06-24 12:21:00 - MENU : menu
+2019-06-24 12:21:00 - MENU INPUT : 1234
+2019-06-24 12:21:00 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:5377bec2-2b50-ab78-83a5-b317cb723f18:
+2019-06-24 12:21:00 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 12:21:00 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 12:21:08 - MENU : home
+2019-06-24 12:21:08 - MENU INPUT : 3
+2019-06-24 12:21:08 - UP : home
+2019-06-24 12:21:08 - MENU RESPONSES : home -> 
+2019-06-24 12:21:08 - DOWN : pinReset
+2019-06-24 12:21:08 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 12:21:08 - ERROR : FTAccounts
+2019-06-24 12:21:08 - MMMMMMM : FTAccounts
+2019-06-24 12:21:12 - MENU : FTAccounts
+2019-06-24 12:21:12 - MENU INPUT : 1
+2019-06-24 12:21:12 - UP : FTAccounts
+2019-06-24 12:21:12 - MENU RESPONSES : FTAccounts -> 
+2019-06-24 12:21:12 - DOWN : pinReset
+2019-06-24 12:21:12 - ERROR : FTAccounts
+2019-06-24 12:21:12 - MMMMMMM : FTAccounts
+2019-06-24 12:21:12 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:10:"FTAccounts";s:6:"action";s:3:"con";s:8:"response";s:71:"Select Bank 
+1. 218210027132501
+2. 223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:6:"fundst";}}s:4:"type";s:4:"form";}
+2019-06-24 12:21:15 - MENU : fundst
+2019-06-24 12:21:15 - MENU INPUT : 1
+2019-06-24 12:21:15 - UP : fundst
+2019-06-24 12:21:15 - MENU RESPONSES : fundst -> 
+2019-06-24 12:21:15 - DOWN : pinReset
+2019-06-24 12:21:15 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:6:"fundst";s:8:"response";s:60:"Reply with:
+1. Direct Transfer
+2. InterBank Transfer
+0. Home";s:3:"map";a:2:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:14:"iftFormAccount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"InterBankTransfer";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 12:21:20 - MENU : iftFormAccount
+2019-06-24 12:21:20 - MENU INPUT : 1234
+2019-06-24 12:21:20 - UP : iftFormAccount
+2019-06-24 12:21:20 - MENU RESPONSES : iftFormAccount -> 
+2019-06-24 12:21:20 - DOWN : pinReset
+2019-06-24 12:21:20 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:14:"iftFormAccount";s:8:"response";s:29:"Enter Account To Transfer To:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";s:4:"name";s:13:"DirectAccount";s:6:"action";s:3:"con";}
+2019-06-24 12:21:20 - ERROR : validateFTAccount
+2019-06-24 12:21:20 - MMMMMMM : validateFTAccount
+2019-06-24 12:21:20 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:1234:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:b91dd5ab-0c9d-7ce7-7680-c4e77ddd0071:TRXSOURCE:USSD:
+2019-06-24 12:21:42 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-06-24 12:21:58 - MENU : validateFTAccount
+2019-06-24 12:21:58 - MENU INPUT : 218210027132501
+2019-06-24 12:21:58 - UP : validateFTAccount
+2019-06-24 12:21:58 - MENU RESPONSES : validateFTAccount -> 
+2019-06-24 12:21:58 - DOWN : pinReset
+2019-06-24 12:21:58 - ERROR : validateFTAccount
+2019-06-24 12:21:58 - MMMMMMM : validateFTAccount
+2019-06-24 12:21:58 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:1234:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:3cb10bfb-8b9b-2fde-4160-4ec4a047d0b9:TRXSOURCE:USSD:
+2019-06-24 12:22:20 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-06-24 12:22:20 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"iftFormAccount";s:6:"action";s:3:"con";s:8:"response";s:72:"Invalid Account. Please Enter a Correct Account No::
+00.Back
+0.Main Menu";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:17:"validateFTAccount";}}s:4:"type";s:4:"form";}
+2019-06-24 12:22:20 - ERROR : validateFTAccount
+2019-06-24 12:22:20 - MMMMMMM : validateFTAccount
+2019-06-24 12:22:20 - VALIDATE FT ACCOUNT REQUEST : FORMID:M-:MERCHANTID:VALIDATEACCOUNT:ACCOUNTID:1234:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKNAME:PML:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:ACTION:GETNAME:UNIQUEID:7fc68f9a-c5cf-2c3b-7269-690f363c5f8b:TRXSOURCE:USSD:
+2019-06-24 12:22:42 - VALIDATE FT ACCOUNT RESPONSE : 
+STATUS:091:MESSAGE:Invalid Account. Please reenter.
+2019-06-24 14:09:11 - GET CUSTOMER REQUEST :FORMID:GETCUSTOMER:MOBILENUMBER:256700146817:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:UNIQUEID:43615141-7faf-ba4d-03d0-dacec44796dc:
+2019-06-24 14:09:11 - GET CUSTOMER RESPONSE : 
+STATUS:000:CUSTOMERID:1485941693:COUNTRY:UGANDATEST:FIRSTNAME:Shafique:LASTNAME:Kabali:BANKNAME:PRIDE:WELCOMEMESSAGE:Welcome to Pride Mobile Banking. Enter your PIN:LANGUAGE:EN
+2019-06-24 14:09:11 - GET CUSTOMER000
+2019-06-24 14:09:11 - GET CUSTOMER TIME : 4.8357963562012E-8
+2019-06-24 14:09:16 - MENU : menu
+2019-06-24 14:09:16 - MENU INPUT : 1234
+2019-06-24 14:09:16 - LOGIN REQUEST : FORMID:LOGIN:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:BANKID:0017:BANKNAME:PML:SHORTCODE:250:COUNTRY:UGANDATEST:DEVICEID:256700146817250:LOGINMPIN:1234:UNIQUEID:5666e0a1-2f4b-4305-6f28-97877a7b5224:
+2019-06-24 14:09:16 - LOGIN RESPONSE :
+STATUS:000:ACCOUNTS:218210027132501,223206003324501:
+2019-06-24 14:09:16 - LOGIN ACCOUNTS :218210027132501,223206003324501
+2019-06-24 14:09:23 - MENU : home
+2019-06-24 14:09:23 - MENU INPUT : 4
+2019-06-24 14:09:23 - UP : home
+2019-06-24 14:09:23 - MENU RESPONSES : home -> 
+2019-06-24 14:09:23 - DOWN : pinReset
+2019-06-24 14:09:23 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:4:"home";s:8:"response";s:144:"Reply with
+1. Account Balance
+2. Mini Statement
+3.Funds Transfer
+4. Airtime Purchase
+5. Mobile Money
+6. Utility Payment 
+7. Change Pin
+8. Logout";s:3:"map";a:7:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:15:"BalanceAccounts";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:17:"StatementAccounts";}i:2;O:8:"stdClass":2:{s:3:"key";s:1:"3";s:4:"menu";s:10:"FTAccounts";}i:3;O:8:"stdClass":2:{s:3:"key";s:1:"4";s:4:"menu";s:14:"MOBILEPROVIDER";}i:4;O:8:"stdClass":2:{s:3:"key";s:1:"5";s:4:"menu";s:5:"NewFT";}i:5;O:8:"stdClass":2:{s:3:"key";s:1:"6";s:4:"menu";s:7:"utility";}i:6;O:8:"stdClass":2:{s:3:"key";s:1:"7";s:4:"menu";s:9:"changePin";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 14:09:27 - MENU : MOBILEPROVIDER
+2019-06-24 14:09:27 - MENU INPUT : 1
+2019-06-24 14:09:27 - UP : MOBILEPROVIDER
+2019-06-24 14:09:27 - MENU RESPONSES : MOBILEPROVIDER -> 
+2019-06-24 14:09:27 - DOWN : pinReset
+2019-06-24 14:09:27 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:14:"MOBILEPROVIDER";s:8:"response";s:25:"
+1 My Phone
+2 Other Phone";s:3:"map";a:3:{i:0;O:8:"stdClass":2:{s:3:"key";s:1:"1";s:4:"menu";s:20:"PinlessAirtimeAmount";}i:1;O:8:"stdClass":2:{s:3:"key";s:1:"2";s:4:"menu";s:14:"pinlessMsisdn2";}i:2;O:8:"stdClass":2:{s:3:"key";s:8:"postMenu";s:4:"menu";s:14:"airtimeConfirm";}}s:4:"type";s:7:"dynamic";s:6:"action";s:3:"con";}
+2019-06-24 14:09:31 - MENU : PinlessAirtimeAmount
+2019-06-24 14:09:31 - MENU INPUT : 100
+2019-06-24 14:09:31 - UP : PinlessAirtimeAmount
+2019-06-24 14:09:31 - MENU RESPONSES : PinlessAirtimeAmount -> 
+2019-06-24 14:09:31 - DOWN : pinReset
+2019-06-24 14:09:31 - DOWN MENU : O:8:"stdClass":6:{s:2:"id";s:20:"PinlessAirtimeAmount";s:8:"response";s:26:"Reply with Airtime amount:";s:3:"map";a:1:{i:0;O:8:"stdClass":2:{s:3:"key";s:4:"next";s:4:"menu";s:18:"AirtimeOwnAccounts";}}s:4:"type";s:4:"form";s:4:"name";s:20:"PinlessAirtimeAmount";s:6:"action";s:3:"con";}
+2019-06-24 14:09:31 - ERROR : AirtimeOwnAccounts
+2019-06-24 14:09:31 - MMMMMMM : AirtimeOwnAccounts
+2019-06-24 14:09:35 - MENU : AirtimeOwnAccounts
+2019-06-24 14:09:35 - MENU INPUT : 1
+2019-06-24 14:09:35 - UP : AirtimeOwnAccounts
+2019-06-24 14:09:35 - MENU RESPONSES : AirtimeOwnAccounts -> 
+2019-06-24 14:09:35 - DOWN : pinReset
+2019-06-24 14:09:35 - ERROR : AirtimeOwnAccounts
+2019-06-24 14:09:35 - MMMMMMM : AirtimeOwnAccounts
+2019-06-24 14:09:35 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:18:"AirtimeOwnAccounts";s:6:"action";s:3:"con";s:8:"response";s:93:"Select Source Account 
+1. Pride/218210027132501
+2. Pride/223206003324501
+00. Home 
+ 000. Exit";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:7:"Airtime";}}s:4:"type";s:4:"form";}
+2019-06-24 14:09:35 - ERROR : Airtime
+2019-06-24 14:09:35 - MMMMMMM : Airtime
+2019-06-24 14:09:37 - MENU : Airtime
+2019-06-24 14:09:37 - MENU INPUT : 1
+2019-06-24 14:09:37 - UP : Airtime
+2019-06-24 14:09:37 - MENU RESPONSES : Airtime -> 
+2019-06-24 14:09:37 - DOWN : pinReset
+2019-06-24 14:09:37 - ERROR : Airtime
+2019-06-24 14:09:37 - MMMMMMM : Airtime
+2019-06-24 14:09:37 - DOWN MENU : O:8:"stdClass":5:{s:2:"id";s:7:"Airtime";s:6:"action";s:3:"con";s:8:"response";s:103:"You are buying airtime of 100 from  Pride/218210027132501 bank Reply with:
+1. Accept
+2. Cancel 
+0. Home";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:14:"AirtimeConfirm";}}s:4:"type";s:4:"form";}
+2019-06-24 14:09:37 - ERROR : AirtimeConfirm
+2019-06-24 14:09:37 - MMMMMMM : AirtimeConfirm
+2019-06-24 14:09:37 - TRANSACTION TIME : -0.00019311904907227
+2019-06-24 14:09:40 - MENU : AirtimeConfirm
+2019-06-24 14:09:40 - MENU INPUT : 1234
+2019-06-24 14:09:40 - UP : AirtimeConfirm
+2019-06-24 14:09:40 - MENU RESPONSES : AirtimeConfirm -> 
+2019-06-24 14:09:40 - DOWN : pinReset
+2019-06-24 14:09:40 - ERROR : AirtimeConfirm
+2019-06-24 14:09:40 - MMMMMMM : AirtimeConfirm
+2019-06-24 14:09:40 - AIRTIME REQUEST : FORMID:M-:MERCHANTID:AIRTELUG:ACCOUNTID:256700146817:AMOUNT:100:TMPIN:1234:BANKNAME:PML:BANKACCOUNTID:218210027132501:ACTION:PAYBILL:CUSTOMERID:1485941693:MOBILENUMBER:256700146817:SHORTCODE:250:BANKID:0017:COUNTRY:UGANDATEST:QUICKPAY:NO:UNIQUEID:f6de6dc4-3a9d-7fab-94fd-bfa161c96594:
+2019-06-24 14:09:43 - AIRTIME RESPONSE : 
+
+2019-06-24 14:09:43 - DOWN MENU : O:8:"stdClass":4:{s:6:"action";s:3:"end";s:8:"response";s:68:"There was a problem processing your request. Please try again later.";s:3:"map";a:1:{i:0;O:8:"stdClass":1:{s:4:"menu";s:9:"groupsave";}}s:4:"type";s:6:"static";}
